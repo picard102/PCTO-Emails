@@ -18,7 +18,8 @@ module.exports = function(grunt) {
           sourceComments: false,
           includePaths: require('node-bourbon').includePaths
         },
-        files: {'<%= pkg.path.buildpath %><%= pkg.name %>/style.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/style.scss' }
+        files: {'<%= pkg.path.buildpath %><%= pkg.name %>/style.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/style.scss',
+        '<%= pkg.path.buildpath %><%= pkg.name %>/admin.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/admin.scss' }
       },
       dev: {
         options: {
@@ -27,7 +28,8 @@ module.exports = function(grunt) {
           sourceComments: false,
           includePaths: require('node-bourbon').includePaths
         },
-        files: {'<%= pkg.path.buildpath %><%= pkg.name %>/style.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/style.scss' }
+        files: {'<%= pkg.path.buildpath %><%= pkg.name %>/style.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/style.scss',
+        '<%= pkg.path.buildpath %><%= pkg.name %>/admin.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/admin.scss' }
       }
     },
 
@@ -42,7 +44,7 @@ module.exports = function(grunt) {
           colorizeOutput: true,
           maxBuffer: '30000000000'
         },
-      
+
     },
 
   /*==========  grunt banner - Add theme info to css  ==========*/
@@ -66,21 +68,21 @@ module.exports = function(grunt) {
             position: 'top',
             banner: '<%= WPBuild %>'
           },
-          files: { src: [ '<%= pkg.path.buildpath %><%= pkg.name %>/style.css' ]  }
+          files: { src: [ '<%= pkg.path.buildpath %><%= pkg.name %>/style.css', '<%= pkg.path.buildpath %><%= pkg.name %>/admin.css' ]  }
       },
       dev: {
           options: {
             position: 'top',
             banner: '<%= WPDev %>'
           },
-          files: { src: [ '<%= pkg.path.buildpath %><%= pkg.name %>/style.css' ] }
+          files: { src: [ '<%= pkg.path.buildpath %><%= pkg.name %>/style.css', '<%= pkg.path.buildpath %><%= pkg.name %>/admin.css' ] }
       }
     },
 
   /*=============================================
   =            JS Functions                     =
   =============================================*/
-  
+
   /*==========  JSHint - Check JS  ==========*/
     jshint: {
       options: {
@@ -90,7 +92,7 @@ module.exports = function(grunt) {
         browser: true,
         globals: { jQuery: true },
       },
-      dev: ['<%= pkg.path.srcpath %><%= pkg.path.js %>/**/*.js'],
+      dev: ['<%= pkg.path.srcpath %><%= pkg.path.js %>/**/*.js', '!<%= pkg.path.srcpath %><%= pkg.path.js %>/vendor/**/*.js'],
       newerFiles: ['<%= jslintCurrentFile %>'],
     },
 
@@ -98,10 +100,33 @@ module.exports = function(grunt) {
     concat: {
       options: {
         separator: ';',
+        banner: '(function($) { $(function() {\n',
+        footer: '\n}); })(jQuery);'
       },
       dist: {
-        src: ['<%= pkg.path.srcpath %><%= pkg.path.js %>/scripts.js'],
+        src: ['<%= pkg.path.srcpath %><%= pkg.path.js %>/scripts.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_scroll.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_login.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_social.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_upload_preview.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_submit.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_withdraw.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_resource.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_comments.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_session_sort.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_faqjobs.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_tracking.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_pull.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/_schedule.js',
+        ],
         dest: '<%= pkg.path.buildpath %><%= pkg.name %>/built.js',
+      },
+      admin: {
+        src: ['<%= pkg.path.srcpath %><%= pkg.path.js %>/admin/_general.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/admin/_install_table_tax.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/admin/_set_schedule.js',
+        '<%= pkg.path.srcpath %><%= pkg.path.js %>/admin/_reject_save.js' ],
+        dest: '<%= pkg.path.buildpath %><%= pkg.name %>/admin.js',
       },
     },
 
@@ -111,7 +136,7 @@ module.exports = function(grunt) {
       dev: {
         options: {
           sourceMap: true,
-          sourceMapName: 'build/built.js.map',
+          sourceMapName: '<%= pkg.path.buildpath %><%= pkg.name %>/built.js.map',
           beautify: true,
           banner: '/*! <%= pkg.name %>_Dev - v<%= pkg.version %> - '+'<%= grunt.template.today("yyyy-mm-dd") %> */'
         },
@@ -127,6 +152,26 @@ module.exports = function(grunt) {
         files: {
           '<%= pkg.path.buildpath %><%= pkg.name %>/built.js': ['<%= pkg.path.buildpath %><%= pkg.name %>/built.js']
         }
+      },
+      devadmin: {
+        options: {
+          sourceMap: true,
+          sourceMapName: '<%= pkg.path.buildpath %><%= pkg.name %>/admin.js.map',
+          beautify: true,
+          banner: '/*! <%= pkg.name %>_Dev - v<%= pkg.version %> - '+'<%= grunt.template.today("yyyy-mm-dd") %> */'
+        },
+        files: {
+          '<%= pkg.path.buildpath %><%= pkg.name %>/admin.js': ['<%= pkg.path.buildpath %><%= pkg.name %>/admin.js']
+        }
+      },
+      buildadmin: {
+        options: {
+          banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - '+'<%= grunt.template.today("yyyy-mm-dd") %> */',
+          compress: { drop_console: true }
+        },
+        files: {
+          '<%= pkg.path.buildpath %><%= pkg.name %>/admin.js': ['<%= pkg.path.buildpath %><%= pkg.name %>/admin.js']
+        }
       }
 
     },
@@ -139,8 +184,8 @@ module.exports = function(grunt) {
     svgmin: {
       options: {
         plugins: [
-        { removeViewBox: false }, 
-        { removeUselessStrokeAndFill: true }, 
+        { removeViewBox: false },
+        { removeUselessStrokeAndFill: true },
         { cleanupIDs: true }
         ]
       },
@@ -165,21 +210,21 @@ module.exports = function(grunt) {
 
   /*=============================================
   =            Image                            =
-  =============================================*/   
+  =============================================*/
 
   /*==========  ImageMin - compress raster files  ==========*/
-    imagemin: { 
-      dynamic: { 
+    imagemin: {
+      dynamic: {
         options: { optimizationLevel: 4},
         files: [{
           expand: true,
-          cwd: '<%= pkg.path.srcpath %><%= pkg.path.img %>', 
-          src: ['*.{png,jpg,gif}'], 
-          dest: '<%= pkg.path.buildpath %><%= pkg.name %>/<%= pkg.path.img%>' 
+          cwd: '<%= pkg.path.srcpath %><%= pkg.path.img %>',
+          src: ['*.{png,jpg,gif}'],
+          dest: '<%= pkg.path.buildpath %><%= pkg.name %>/<%= pkg.path.img%>'
         }]
       }
     },
-  
+
   /*==========  ImageOptim - compress raster files again  ==========*/
     imageoptim: {
       myTask: {
@@ -195,7 +240,7 @@ module.exports = function(grunt) {
     phplint: {
       newerFiles: ['<%= phplintCurrentFile %>'],
       all: {
-        src: [  '<%= pkg.path.srcpath %>**/*.php' ]
+        src: [  '<%= pkg.path.srcpath %>**/*.php', '!<%= pkg.path.srcpath %>includes/vendor/**/*.php' ]
       },
 
     },
@@ -204,7 +249,7 @@ module.exports = function(grunt) {
     phpcs: {
       newerFiles: ['<%= phplintCurrentFile %>'],
       all: {
-        src: [  '<%= pkg.path.srcpath %>/**/*.php']
+        src: [  '<%= pkg.path.srcpath %>/**/*.php', '!<%= pkg.path.srcpath %>includes/vendor/**/*.php' ]
       },
       options: {
         standard: 'Wordpress',
@@ -245,21 +290,21 @@ module.exports = function(grunt) {
   /*==========  Copy - Copy files to build deploy folder  ==========*/
     copy: {
       build: {
-        expand: true, 
-        cwd: '<%= pkg.path.srcpath %>', 
-        src: ['**', '!**/img/**', '!**/svg/**', '!**/scss/**', '!**/js/**'], 
+        expand: true,
+        cwd: '<%= pkg.path.srcpath %>',
+        src: ['**', '!**/img/**', '!**/svg/**', '!**/scss/**', '!**/js/**', 'includes/vendor/*/**', 'assets/js/vendor/*/**'],
         dest: '<%= pkg.path.buildpath %><%= pkg.name %>/'
       },
       img: {
-        expand: true, 
-        cwd: 'src/assets/img/', 
-        src: ['*.{png,jpg,gif}'], 
+        expand: true,
+        cwd: 'src/assets/img/',
+        src: ['*.{png,jpg,gif}'],
         dest: '<%= pkg.path.buildpath %><%= pkg.name %>/<%= pkg.path.img%>/'
       },
       deploy: {
-        expand: true, 
-        cwd: '<%= pkg.path.srcpath %>', 
-        src: ['**', '!**/img/**', '!**/svg/**', '!**/scss/**', '!**/js/**'], 
+        expand: true,
+        cwd: '<%= pkg.path.srcpath %>',
+        src: ['**', '!**/img/**', '!**/svg/**', '!**/scss/**', '!**/js/**'],
         dest: 'deploy/'
       }
     },
@@ -305,7 +350,7 @@ module.exports = function(grunt) {
       overwrite: true,
       replacements: [{
         from: '@git_link@',
-        to: "<%= pkg.props.git_link %><%= pkg.name %>"
+        to: "<%= pkg.props.git_link %>"
       }]
     },
 
@@ -346,13 +391,13 @@ module.exports = function(grunt) {
       options: {
         livereload: 25710,
       },
-      
-      grunt: { 
-        files: ['Gruntfile.js'] 
+
+      grunt: {
+        files: ['Gruntfile.js']
       },
       scripts: {
-        files: ['<%= pkg.path.srcpath %><%= pkg.path.js %>/*.js'],
-        tasks: ['jshint:newerFiles','concat','uglify:dev','replace:hash'],
+        files: ['<%= pkg.path.srcpath %><%= pkg.path.js %>/**/*.js'],
+        tasks: ['jshint:newerFiles','concat','uglify:dev','uglify:devadmin','replace:hash'],
         options: {
           spawn: false,
         }
@@ -378,7 +423,7 @@ module.exports = function(grunt) {
         options: {
           spawn: false,
         }
-      }, 
+      },
     }
   });
 
@@ -408,7 +453,6 @@ grunt.event.on('watch', function(action, filepath) {
           grunt.config.set('phplintCurrentFile', filepath);
           break;
 
-
         // JS
         case 'js' :
           grunt.config.set('jslintCurrentFile', filepath);
@@ -420,15 +464,15 @@ grunt.event.on('watch', function(action, filepath) {
 
 
   grunt.registerTask('style', ['scsslint:dev','sass:dev','usebanner:dev']);
-  grunt.registerTask('script', ['jshint:dev', 'concat', 'uglify:dev']);
+  grunt.registerTask('script', ['jshint:dev', 'concat', 'uglify:dev', 'uglify:devadmin']);
   grunt.registerTask('svg', ['svgmin', 'svgstore']);
   grunt.registerTask('img', ['imagemin', 'imageoptim']);
-  
+
   grunt.registerTask('devwatch', ['watch']);
 
-  grunt.registerTask('dev', ['bump-only:prepatch','clean:build','scsslint:dev','sass:dev','usebanner:dev','jshint:dev','concat','uglify:dev','svgmin','svgstore','copy:img','phplint:all','phpcs:all','copy:build','replace']);
+  grunt.registerTask('dev', ['bump-only:prepatch','clean:build','scsslint:dev','sass:dev','usebanner:dev','jshint:dev','concat','uglify:dev','uglify:devadmin','svgmin','svgstore','copy:img','phplint:all','phpcs:all','copy:build','replace']);
 
-  grunt.registerTask('build', ['bump-only:minor','clean:build','scsslint:dev','sass:build','usebanner:build','jshint:dev','concat','uglify:build','svgmin','svgstore','imagemin','imageoptim','phplint:all','copy:build','replace','bump-commit']);
+  grunt.registerTask('build', ['bump-only:minor','clean:build','scsslint:dev','sass:build','usebanner:build','jshint:dev','concat','uglify:build','uglify:buildadmin','svgmin','svgstore','imagemin','imageoptim','phplint:all','copy:build','replace','bump-commit']);
 
 
 };
