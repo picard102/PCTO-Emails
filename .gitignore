@@ -11,3 +11,4 @@ wp-config.php
 *.scssc
 .htaccess
 *.zip 
+/dist
