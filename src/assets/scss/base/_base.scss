@@ -1,0 +1,33 @@
+
+table.submit-body {
+  background-image: url('http://podcamptoronto.com/external/img/raster/emailbg.png');
+  background-color: $red;
+  background-position: bottom center;
+}
+
+
+.content-body {
+  background: $white;
+  max-width: 600px;
+
+  td {
+    padding: 24px;s
+  }
+}
+
+
+.l_col {
+  background-color: $blue;
+}
+
+.c_col {
+  background-color: $grey;
+  max-width: 600px;
+}
+
+.logo_col {
+  //background-color: $black;
+  width: 100px;
+  text-align: center;
+  padding: 50px 12px;
+}

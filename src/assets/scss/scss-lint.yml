@@ -41,7 +41,7 @@ linters:
     present: true
 
   HexLength:
-    enabled: true
+    enabled: false
     style: short
 
   HexNotation:
@@ -72,7 +72,7 @@ linters:
 
 
   LeadingZero:
-    enabled: true
+    enabled: false
     style: exclude_zero
 
   MergeableSelector:

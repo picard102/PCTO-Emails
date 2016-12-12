@@ -3,11 +3,69 @@
 $white: #fffefa;
 $black: #1e2225;
 
-$link: $black;
-$text: $black;
+$red: #e41f3a;
+$blue: #39b7cd;
+$grey: #7b8994;
+$coty: #955251;
+
+$gold: #ffc125;
+$green: #458b00;
+
+$dark-grey: darken($grey, 15%);
+$light-grey: lighten($grey, 15%);
+$darker-grey: darken($grey, 30%);
+$lighter-grey: lighten($grey, 30%);
+
+$dark-red: darken($red, 15%);
+$light-red: lighten($red, 15%);
+$darker-red: darken($red, 30%);
+$lighter-red: lighten($red, 30%);
+
+$dark-blue: darken($blue, 15%);
+$light-blue: lighten($blue, 15%);
+$darker-blue: darken($blue, 30%);
+$lighter-blue: lighten($blue, 30%);
+
+
+$link: $blue;
+$text: $lighter-grey;
 $strong: tint($text, 80%);
 
-$brand: $black;
+$text-dark: $darker-grey;
+$strong-dark: tint($text-dark, 80%);
+
+$brand: $red;
+
+$social: #6d6e71;
+$podcasting: #000;
+$design: #d80015;
+$community: #a8801b;
+$business: #79117e;
+$hacker: #de3f18;
+$other: $dark-blue; //#818386
+$culture: #309667;
+
+$approved: #7bbf6a;
+$rejected: #a62a2a;
+$pending: #50a6c2;
+$withdrawn: #e5bc3b;
+
+$twitter: #55acee;
+$facebook: #3b5998;
+$instagram: #125688;
+$youtube: #e52d27;
+$google: #dd4b39;
+
+$subjects: (
+  business: $business,
+  community: $community,
+  culture: $culture,
+  design: $design,
+  hacker: $hacker,
+  other: $other,
+  podcasting: $podcasting,
+  social: $social
+);
 
 $ms: (
   16: 2206.258em,
@@ -36,13 +94,18 @@ $ms: (
 );
 
 // Type
+
+$mont: 'Montserrat', sans-serif;
+$open: 'Open Sans', sans-serif;
+$lato: 'Lato', sans-serif;
+
 $serif: 'Libre Baskerville', serif;
 $sans-serif: helvetica;
 
 $thin: 100;
 $light: 300;
 $book: 400;
-$medium: 500; 
+$medium: 500;
 $semi: 600;
 $heavy: 700;
 $extra: 800;
