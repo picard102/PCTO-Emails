@@ -1,0 +1,830 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margn",
+				"margin-right"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"Pending",
+				"Pending"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"app",
+				"approvedPosts"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"user",
+				"user_sessions"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"fail",
+				"fail_test"
+			],
+			[
+				"parent",
+				"parent_term_id"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"galle",
+				"gallery_image_id"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"newer",
+				"newerFiles"
+			],
+			[
+				"imag",
+				"imageoptim"
+			],
+			[
+				"im",
+				"imageoptim"
+			],
+			[
+				"imagemin",
+				"imagemin"
+			],
+			[
+				"scss",
+				"scsslint"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"link",
+				"linkcolor"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"overflow",
+				"overflow"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-align-last"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"grey",
+				"darker-grey"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"light",
+				"light-grey"
+			],
+			[
+				"i",
+				"include"
+			],
+			[
+				"number",
+				"number_format"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"marin",
+				"margin-bottom"
+			],
+			[
+				"box",
+				"border-box"
+			],
+			[
+				"content",
+				"justify-content"
+			],
+			[
+				"else",
+				"elseif\telseif …"
+			],
+			[
+				"fnt",
+				"font-size"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"dark",
+				"dark-blue"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"frae",
+				"frameid"
+			],
+			[
+				"list",
+				"listreset"
+			],
+			[
+				"cell",
+				"cell-color"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"word",
+				"word-wrap"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"span",
+				"span"
+			],
+			[
+				"pirnt",
+				"print_r"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"xs",
+				"xs"
+			],
+			[
+				"font-e",
+				"font-weight"
+			],
+			[
+				"ore",
+				"orientier"
+			],
+			[
+				"mes",
+				"message_log_reason"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"edit",
+				"edit_button"
+			],
+			[
+				"post",
+				"post_author"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"da",
+				"dark-grey"
+			],
+			[
+				"ligh",
+				"lighter-grey"
+			],
+			[
+				"Previ",
+				"Previously"
+			],
+			[
+				"room",
+				"room_tax"
+			],
+			[
+				"ima",
+				"imageoptim"
+			],
+			[
+				"print",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"gr",
+				"Grunt"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Insta\t",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 189.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/_splash.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/503.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/header.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_venue.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/page-logistics.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/footer.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_submit_form.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/page-submit-session.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/style.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_splash.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/header.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/functions.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_session_grid.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/index.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/admin/_settings_index.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_about.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/page-about.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/_hotels.php",
+		"/Applications/MAMP/logs/php_error.log",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/schedule/_set_schedule.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_comments.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_comments.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/single-sessions.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/schedule/_schedule_list.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/sessions/_notice.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_pull.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/Gruntfile.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/scripts.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_schedule.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_session_list.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/js/main.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_session_sort.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/schedule/_filter.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/page-schedule.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_schedule.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_schedule.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/page-schedule.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_tracking.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_pull.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/_objects/session_schedule.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/schedule/_schedule_index.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/_inc/sessions/_schedule.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/page-agenda.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_tabs.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/schedule/_tabs.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/admin/_build_pages.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/archive-sessions.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/header_menu.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_login.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_social.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_single.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/sessions/_content.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/_inc/sessions/_ajax_pull.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/sessions/_log.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/sessions/_resource.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/sessions/_comments.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_favicon.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/jobs/cpt_jobs.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_video.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/sessions/_admin_save.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/sessions/_defualt_taxonomies.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/sessions/_write_log.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/schedule/schedule.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/sessions/cpt_sessions.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/sponsors/cpt_sponsors.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/users/block_users.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/users/_user_meta.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/users/user_settings.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/users/update_weight.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_tracking.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/_inc/bookmark.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/_footer_pop.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/archive-jobs.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_jobs.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/faq/cpt_faq.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_faqjobs.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_faq.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/archive-faq.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/_funding.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_sponsors.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_funding.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/scss/style.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_sponsors.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/agenda.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/_timeline.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/utils/_variables.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/scss/components/_session_grid.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_footer.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/footer.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/base/_base.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_filters.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO-2017/style.css",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/proposal_list.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_post_class.pgp",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_iconSprite.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_type_icons.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/filters.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_vote.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_vote.haml",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_type_icons.scss.haml",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_voteButton.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/svg/icons/rate-2.svg",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/media/2016/11/diag_log.txt",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_ratings.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/scss/components/_rating.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_comments.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_ratings.scss .haml",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_comments.scss.haml",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_resources.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_single_notice.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_resource.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_button.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/scss/base/_base.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_button.scss.haml",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_resource.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_resources.scss.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_slide.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/page-submit.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/liveshows/_content.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/functions.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/liveshows/_notice.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_single_show.scss",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/page-submit-edit-live.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_upload_preview.js",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/single-liveshows.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/live/_metaboxes.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/page-submit-edit.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/admin/custom_settings.php"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/scss",
+			"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016",
+			"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes",
+			"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/vendor/sendgrid",
+			"<open folders>",
+			"/Applications/MAMP/htdocs/podcamp/wp-content/themes/PCTO_2016"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"img/raster/compressed",
+			"0.4",
+			"tab",
+			"list-item ",
+			"Session_Open",
+			"getState",
+			"closeOverlay",
+			"statePostId",
+			"pushS",
+			"push",
+			"pushs",
+			"list-item",
+			"pull",
+			"$current_user->ID",
+			"$post->ID",
+			"{\n",
+			"pull",
+			" '=> ",
+			"'=> ",
+			"$count]",
+			"buildtable",
+			"mix-frame",
+			"faq",
+			"FAQ",
+			"jobs",
+			"funding",
+			"display",
+			"DISPLAY",
+			":before",
+			"0.",
+			"button",
+			"getYoutubeIdFromUrl",
+			"getyo",
+			"();\n",
+			"@include test;",
+			"sessions",
+			"subject-ct",
+			"subject",
+			"import_users",
+			"active",
+			"$schedule_status == true",
+			"schedule_open",
+			"scheduled_flag",
+			"php",
+			"$true_id",
+			"post_id",
+			"remove_meta_box",
+			"SendGrid\\Client",
+			"SendGrid",
+			"class",
+			"write_diag_log",
+			"msg",
+			"email_schedule_fail",
+			"log",
+			"var",
+			"h2",
+			"wpse51463_admin_notice",
+			".schedule_admin",
+			"posts",
+			";</div></div>';",
+			"</div>';",
+			"cc-results-status",
+			"uid)",
+			"   'tax' => 'skill_level_tax',",
+			"   'tax' => 'type_tax',",
+			"    'tax'  => 'room_tax',",
+			"    'tax'  => 'status_tax',",
+			"    'tax' => 'subject_tax',",
+			"    'tax' => 'time_tax',",
+			"    'tax' => 'time_tax', ",
+			"//    'parent'=> $sunday->term_id ",
+			".$saturday->slug, ",
+			"//    'slug'=",
+			"//    'parent'=> $saturday->term_id ",
+			"    'tax'  => 'time_tax', ",
+			"    'parent'=> $saturday->term_id ",
+			"    'parent'=> $sunday->term_id ",
+			"   'parent'=> '0',",
+			"    'parent'=>",
+			"    'parent'=> '0',",
+			"    'description'=> '',",
+			"    'description'=> '', ",
+			"   ",
+			"'description'=> ''",
+			"description'=> '' ),",
+			"array('term'",
+			"' ),",
+			"   '",
+			"', ",
+			"pcto_db_cversion",
+			"$pcto_db_cversion",
+			"$pcto_db_version",
+			"live",
+			"voteIncrement",
+			"d')),",
+			"s('",
+			"PCTO_",
+			"),",
+			"_(",
+			"phpcs",
+			"wordpress",
+			"!",
+			"git",
+			"src/",
+			".path",
+			".\n",
+			"image",
+			"steplimit",
+			"NUM_STEPS",
+			"hide",
+			"Hide",
+			"PID",
+			";\n",
+			"images/EN",
+			"images/FR",
+			"images/EN",
+			"/EN",
+			"session",
+			"Session",
+			"sessions",
+			"get_user_sessions",
+			"echo '<td> DN';",
+			" var_dump($user_track);",
+			"}\n",
+			";\n",
+			"//@",
+			"24px",
+			"consol"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "emails.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

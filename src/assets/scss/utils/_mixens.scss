@@ -87,7 +87,7 @@
 //
 
 @mixin linkcolor($value, $direction: darken, $hover: false) {
-  @include transition (all .2s ease-in-out);
+  //@include transition (all .2s ease-in-out);
   @if $hover == false {
     @if $direction == darken {
       color: $value;

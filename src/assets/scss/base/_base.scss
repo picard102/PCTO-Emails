@@ -1,33 +1,66 @@
 
 table.submit-body {
-  background-image: url('http://podcamptoronto.com/external/img/raster/emailbg.png');
+  //background-image: url('http://podcamptoronto.com/external/img/raster/emailbg.png');
   background-color: $red;
   background-position: bottom center;
+  table-layout: fixed;
+  width: 100%;
 }
+
 
 
 .content-body {
   background: $white;
-  max-width: 600px;
+  //max-width: 600px;
+  width: 100%;
 
   td {
-    padding: 24px;s
+    padding: 24px;
   }
 }
 
+.content-header {
+  padding: 30px 24px 12px;
+  color: $white;
 
-.l_col {
-  background-color: $blue;
-}
+  h1 {
+    font-size: 45px;
+  }
 
-.c_col {
-  background-color: $grey;
-  max-width: 600px;
+  small {
+    color: $dark-red;
+  }
 }
 
 .logo_col {
   //background-color: $black;
   width: 100px;
-  text-align: center;
-  padding: 50px 12px;
+  text-align: right;
+  vertical-align: top;
+  padding: 36px 6px 0;
+
+  img {
+    max-width: 100%;
+  }
 }
+
+.layout {
+  table-layout: fixed;
+  width: 600px;
+}
+
+
+table.footer {
+  font-size: 10px;
+  color: $lighter-red;
+
+  td {
+    padding: 24px;
+  }
+
+  a {
+    @include linkcolor ($lighter-red, darken);
+  }
+}
+
+

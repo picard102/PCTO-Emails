@@ -15,17 +15,19 @@
 ?>
 <?php require'templates/header.php'; ?>
 
+<table border="0" style="width: 100%;">
 
-<table border="2" style="width: 100%;">
   <tr>
-    <td>
+    <td></td>
+    <td class="content-header">
       <small>PodCamp Toronto</small>
-      <h1>-TYPE- Proposal Received</h1>
+      <h1>-TYPE- <br/>Proposal Received</h1>
     </td>
   </tr>
-  <tr>
-    <td>
 
+  <tr>
+    <td style="background: #fff;"></td>
+    <td>
       <table class="content-body">
         <tr>
           <td>
@@ -37,8 +39,6 @@
           </td>
         </tr>
       </table>
-
-
     </td>
   </tr>
 </table>
