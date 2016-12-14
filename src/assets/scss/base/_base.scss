@@ -1,18 +1,67 @@
 
+
+
+
+.fill {
+  width: 20%;
+  background-color: $white;
+}
+
+$submit: $red;
+
 table.submit-body {
   //background-image: url('http://podcamptoronto.com/external/img/raster/emailbg.png');
-  background-color: $red;
+  background-color: $submit;
   background-position: bottom center;
   table-layout: fixed;
   width: 100%;
+
+  .content-body a {
+    @include linkcolor (darken($submit, 10%), darken);
+  }
+
+  .content-header {
+    color: $white;
+
+    small {
+      color: darken($submit, 15%);
+    }
+  }
+
+  table.footer {
+    color: lighten($submit, 30%);
+
+    a {
+      @include linkcolor (lighten($submit, 30%), lighten);
+    }
+  }
+
+
+
+
+  .social-body {
+    //background-color: $submit;
+    border-top: 1px solid $submit;
+    border-bottom: 1px solid $submit;
+    color: $dark-grey;
+
+    .button {
+      color: $white;
+    }
+
+    a {
+      @include linkcolor ($white, darken);
+    }
+  }
+
 }
 
 
 
 .content-body {
   background: $white;
-  //max-width: 600px;
   width: 100%;
+  font-size: 15px;
 
   td {
     padding: 24px;
@@ -21,14 +70,9 @@ table.submit-body {
 
 .content-header {
   padding: 30px 24px 12px;
-  color: $white;
 
   h1 {
     font-size: 45px;
-  }
-
-  small {
-    color: $dark-red;
   }
 }
 
@@ -46,21 +90,77 @@ table.submit-body {
 
 .layout {
   table-layout: fixed;
-  width: 600px;
+  width: 900px;
 }
 
 
 table.footer {
   font-size: 10px;
-  color: $lighter-red;
 
   td {
     padding: 24px;
   }
 
+}
+
+
+.social-body {
+  text-align: center;
+  font-size: 13px;
+  margin: 0 auto;
+  width: 100%;
+
+  td {
+    padding: 12px 0;
+  }
+
+  table {
+    border-spacing: 12px 6px;
+    border-collapse: separate;
+
+    td {
+      padding: 6px;
+      width: 30%;
+    }
+
+  }
+
+  h4 {
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .instagram {
+    background-color: $instagram;
+  }
+
+  .twitter {
+    background-color: $twitter;
+  }
+
+  .facebook {
+    background-color: $facebook;
+  }
+
+  .button {
+    border-radius: 20px;
+    text-align: center;
+  }
+
   a {
-    @include linkcolor ($lighter-red, darken);
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 3px 0;
+    display: block;
   }
 }
+
+.no-top {
+  padding: 0 24px 24px !important;
+}
+
+
+
 
 

@@ -41,6 +41,24 @@
       </table>
     </td>
   </tr>
+
+ <tr>
+    <td style="background: #fff;" class="fill"></td>
+    <td>
+      <table class="content-body">
+        <tr>
+          <td class="no-top">
+            <?php
+            require'templates/social.php';
+            ?>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+
+
 </table>
 
 

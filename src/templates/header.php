@@ -27,6 +27,6 @@
   <tr>
     <td>
 
-      <table border="2" class="layout">
+      <table border="0" class="layout">
         <tr>
           <td class="content-col">
