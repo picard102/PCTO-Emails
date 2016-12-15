@@ -15,7 +15,8 @@
 
 <table class="footer">
   <tr>
-    <td>
+  <td class="fill"></td>
+    <td class="footer-body">
       <a href="http://podcamptoronto.com">PodCampToronto.com</a>
       &bull;
       <a href="mailto:info@podcamptoronto.com">Contact Us</a>
