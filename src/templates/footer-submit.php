@@ -28,7 +28,7 @@
 
     </td>
     <td class="logo_col">
-        <img src="http://podcamptoronto.com/external/img/raster/logo2.png">
+        <img src="http://podcamptoronto.com/external/img/raster/2017/emails/logo-17-w.png">
     </td>
   </tr>
 

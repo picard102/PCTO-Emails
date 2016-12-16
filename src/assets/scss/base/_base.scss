@@ -19,58 +19,6 @@ table {
 
 }
 
-$submit: $red;
-
-table.submit-body {
-  background-image: url('http://podcamptoronto.com/external/img/raster/email-submit-bg.png');
-  background-color: $submit;
-  background-position: bottom center;
-  width: 100%;
-  height: 100%;
-  display: block;
-  overflow: hidden;
-
-  .content-body a {
-    @include linkcolor (darken($submit, 10%), darken);
-  }
-
-  .content-header {
-    color: $white;
-
-    small {
-      color: darken($submit, 15%);
-    }
-  }
-
-  table.footer {
-    color: lighten($submit, 30%);
-
-    a {
-      @include linkcolor (lighten($submit, 30%), lighten);
-    }
-  }
-
-
-
-
-  .social-body {
-    //background-color: $submit;
-    border-top: 1px solid $submit;
-    border-bottom: 1px solid $submit;
-    color: $dark-grey;
-
-    .button {
-      color: $white;
-    }
-
-    a {
-      @include linkcolor ($white, darken);
-    }
-  }
-
-}
-
-
 
 .content-body {
   background: $white;
@@ -120,12 +68,13 @@ table.submit-body {
 
   img {
     max-width: 100%;
-    height: auto;
+    height: auto !important;
 
     @include breakpoint($sm-down) {
-      width: 40px !important;
+      width: 60px !important;
       float: right !important;
       max-width: inherit !important;
+      height: auto !important;
     }
   }
 }

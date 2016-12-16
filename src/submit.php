@@ -13,7 +13,7 @@
  * @link     @git_link@
  */
 ?>
-<?php require'templates/header.php'; ?>
+<?php require'templates/header-submit.php'; ?>
 
 <table border="0" style="width: 100%;">
 
@@ -65,7 +65,7 @@
 
 <?php
 //require'templates/social.php';
-require'templates/footer.php';
+require'templates/footer-submit.php';
 ?>
 
 
