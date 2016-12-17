@@ -25,7 +25,7 @@
 
 
 
-<table class="body reject-body">
+<table class="body schedule-body">
   <tr>
     <td>
 
@@ -108,7 +108,7 @@
 
 <?php
 //require'templates/social.php';
-require'templates/footer-submit.php';
+require'templates/footer-co.php';
 ?>
 
 

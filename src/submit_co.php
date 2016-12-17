@@ -64,7 +64,7 @@
 
 <?php
 //require'templates/social.php';
-require'templates/footer-submit.php';
+require'templates/footer-co.php';
 ?>
 
 

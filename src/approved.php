@@ -25,7 +25,7 @@
 
 
 
-<table class="body reject-body">
+<table class="body approved-body">
   <tr>
     <td>
 

@@ -1,8 +1,8 @@
 
-$submit: $red;
+$submit: $dark-blue;
 
-table.reject-body {
-  background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-submit-bg.png');
+table.schedule-body {
+  background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-schedule-bg.png');
   background-color: $submit;
   background-position: right bottom;
   width: 100%;
@@ -12,7 +12,7 @@ table.reject-body {
   background-size: cover;
 
   @include breakpoint($sm-down) {
-    background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-approved-bgm.png') !important;
+    background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-schedule-bgm.png') !important;
     background-position: right top !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
@@ -52,9 +52,10 @@ table.reject-body {
 
 
   .tips-body {
-    background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-submit-bg.png');
-    background-position: right bottom;
-    background-size: cover;
+    background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-submit-bgm.png');
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-color: $submit;
     border-top: 1px solid $submit;
     border-bottom: 1px solid $submit;
