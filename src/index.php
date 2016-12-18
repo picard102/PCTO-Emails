@@ -13,6 +13,50 @@
  * @link     @git_link@
  */
 ?>
-<?php require'templates/header.php'; ?>
-z
-<?php require'templates/footer.php'; ?>
+
+<style>
+  
+  iframe {
+    width: 100%;
+    display: block;
+    height: 40vh;
+    margin-bottom: 24px;
+  }
+
+
+</style>
+
+<a href="/submit.php">Submit</a>
+<iframe src="/submit.php"></iframe>
+
+<a href="/submit_co.php">Submit Co</a>
+<iframe src="/submit_co.php"></iframe>
+
+<a href="/edit.php">Edit</a>
+<iframe src="/edit.php"></iframe>
+
+<a href="/approved.php">Approved</a>
+<iframe src="/approved.php"></iframe>
+
+<a href="/reject.php">Reject</a>
+<iframe src="/reject.php"></iframe>
+
+<a href="/schedule.php">Schedule</a>
+<iframe src="/schedule.php"></iframe>
+
+<a href="/schedule_co.php">Schedule Co</a>
+<iframe src="/schedule_co.php"></iframe>
+
+<a href="/waitlist.php">Waitlist</a>
+<iframe src="/waitlist.php"></iframe>
+
+<a href="/submit_live.php">Submit Live</a>
+<iframe src="/submit_live.php"></iframe>
+
+
+
+
+<?php
+  $GLOBALS['current_url'] = 'http://'.$_SERVER['SERVER_NAME'];
+  echo '<script src="'.$GLOBALS['current_url'].':25710/livereload.js?snipver=1"></script>';
+?>
