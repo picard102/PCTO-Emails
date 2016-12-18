@@ -1,8 +1,6 @@
 <?php
 /**
- * The template for displaying the header
- *
- * Displays all of the head element and everything up until the "site-content" div.
+ * Schedule notice of time and room
  *
  * @category PHP
  * @package  @theme_folder@
@@ -20,10 +18,7 @@
     echo '<style>'.$css.'</style>';
   ?>
 </head>
-
 <body>
-
-
 
 <table class="body schedule-body">
   <tr>
@@ -67,12 +62,9 @@
         <tr>
           <td class="no-top">
 
-
-
  <table class="tips-body">
   <tr>
     <td>
-
 
 <h4>Some Tips</h4>
 <ul>
@@ -83,13 +75,9 @@
   <li>Finally, please let us know if you need to back out. It happens!</li>
 </ul>
 
-
     </td>
   </tr>
 </table>
-
-
-
 
 
           </td>
@@ -101,14 +89,6 @@
 </table>
 
 
-
-
-
-
-
 <?php
-//require'templates/social.php';
-require'templates/footer-submit.php';
+  require'templates/footer-submit.php';
 ?>
-
-

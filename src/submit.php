@@ -1,8 +1,6 @@
 <?php
 /**
- * The template for displaying the index
- *
- * Displays the index of the theme
+ * Submission recipt confirmation
  *
  * PHP version 5
  *
@@ -12,8 +10,24 @@
  * @version  Release: @package_version@
  * @link     @git_link@
  */
-?>
-<?php require'templates/header-submit.php'; ?>
+?><!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php
+    $css = file_get_contents('style.css');
+    echo '<style>'.$css.'</style>';
+  ?>
+</head>
+<body>
+
+<table class="body submit-body">
+  <tr>
+    <td>
+
+      <table border="0" class="layout">
+        <tr>
+          <td class="content-col">
 
 <table border="0" style="width: 100%;">
 
@@ -57,15 +71,8 @@
     </td>
   </tr>
 
-
-
 </table>
 
-
-
 <?php
-//require'templates/social.php';
-require'templates/footer-submit.php';
+  require'templates/footer-submit.php';
 ?>
-
-

@@ -1,8 +1,6 @@
 <?php
 /**
- * The template for displaying the header
- *
- * Displays all of the head element and everything up until the "site-content" div.
+ * Live Show submission confirmation
  *
  * @category PHP
  * @package  @theme_folder@
@@ -20,10 +18,7 @@
     echo '<style>'.$css.'</style>';
   ?>
 </head>
-
 <body>
-
-
 
 <table class="body submitlive-body">
   <tr>
@@ -73,16 +68,10 @@
       </table>
     </td>
   </tr>
-
-
-
 </table>
 
-
-
 <?php
-//require'templates/social.php';
-require'templates/footer-submit.php';
+  require'templates/footer-submit.php';
 ?>
 
 

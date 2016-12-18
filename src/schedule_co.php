@@ -1,8 +1,6 @@
 <?php
 /**
- * The template for displaying the header
- *
- * Displays all of the head element and everything up until the "site-content" div.
+ * Schedule notice for co-presenters
  *
  * @category PHP
  * @package  @theme_folder@
@@ -20,15 +18,11 @@
     echo '<style>'.$css.'</style>';
   ?>
 </head>
-
 <body>
-
-
 
 <table class="body schedule-body">
   <tr>
     <td>
-
       <table border="0" class="layout">
         <tr>
           <td class="content-col">
@@ -88,10 +82,6 @@
   </tr>
 </table>
 
-
-
-
-
           </td>
         </tr>
       </table>
@@ -100,15 +90,6 @@
 
 </table>
 
-
-
-
-
-
-
 <?php
-//require'templates/social.php';
-require'templates/footer-co.php';
+  require'templates/footer-co.php';
 ?>
-
-
