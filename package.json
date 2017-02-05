@@ -1,6 +1,6 @@
 {
   "name": "PCTO-EMAILS",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "devDependencies": {
     "grunt-banner": "^0.6.0",
     "grunt-bump": "^0.7.0",
