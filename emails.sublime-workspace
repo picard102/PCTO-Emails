@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
 				"le",
 				"letter-spacing"
 			],
@@ -124,10 +132,6 @@
 				"var_dump"
 			],
 			[
-				"padd",
-				"padding-bottom"
-			],
-			[
 				"line",
 				"line-height"
 			],
@@ -138,10 +142,6 @@
 			[
 				"link",
 				"linkcolor"
-			],
-			[
-				"border",
-				"border-radius"
 			],
 			[
 				"overflow",
@@ -441,9 +441,31 @@
 	},
 	"expanded_folders":
 	[
+		"/Applications/MAMP/htdocs/Email-Templates/src"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/Email-Templates/src/welcome.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/templates/sponsors.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/assets/scss/base/_base.scss",
+		"/Applications/MAMP/htdocs/Email-Templates/src/assets/scss/layout/_register.scss",
+		"/Applications/MAMP/htdocs/Email-Templates/src/index.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/register.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/assets/scss/layout/_back.scss",
+		"/Applications/MAMP/htdocs/Email-Templates/src/assets/scss/style.scss",
+		"/Applications/MAMP/htdocs/Email-Templates/src/back.php",
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/_inc/emails/templates/template_welcome.php",
+		"/Applications/MAMP/htdocs/Email-Templates/dist/PCTO-EMAILS/back.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/assets/scss/layout/_back.scss.haml",
+		"/Applications/MAMP/htdocs/Email-Templates/src/approved.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/edit.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/reject.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/schedule.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/schedule_co.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/submit_live.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/submit.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/waitlist.php",
+		"/Applications/MAMP/htdocs/Email-Templates/src/submit_co.php",
 		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/_splash.php",
 		"/Applications/MAMP/htdocs/PodCamp-Toronto/503.php",
 		"/Applications/MAMP/htdocs/PodCamp-Toronto/header.php",
@@ -550,32 +572,11 @@
 		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_ratings.scss",
 		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/scss/components/_rating.scss",
 		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_comments.scss",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_ratings.scss .haml",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_comments.scss.haml",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_resources.scss",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_single_notice.scss",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_resource.js",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_button.scss",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/scss/base/_base.scss",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_button.scss.haml",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_resource.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_resources.scss.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_slide.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/page-submit.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/liveshows/_content.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/functions.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/liveshows/_notice.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_single_show.scss",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/page-submit-edit-live.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/js/_upload_preview.js",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/single-liveshows.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/live/_metaboxes.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/page-submit-edit.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/admin/custom_settings.php"
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_ratings.scss .haml"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -595,6 +596,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"style=\"-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;\"",
+			"style=\"color: #353c41; font-size: 16px; font-weight: 400; font-family: 'Helvetica', 'Arial', sans-serif; text-align: left; line-height: 19px; margin: 0 0 12px; padding: 0;\" align=\"left\"",
+			"               </center>\n\n              <center>",
+			"              </td>\n              <td> <!-- Make sure the tags are directly next to each other -->",
+			"lighter",
+			"container",
+			"$submit",
+			"\"/",
 			"img/raster/compressed",
 			"0.4",
 			"tab",
@@ -714,15 +723,7 @@
 			"/EN",
 			"session",
 			"Session",
-			"sessions",
-			"get_user_sessions",
-			"echo '<td> DN';",
-			" var_dump($user_track);",
-			"}\n",
-			";\n",
-			"//@",
-			"24px",
-			"consol"
+			"sessions"
 		],
 		"highlight": true,
 		"in_selection": false,

@@ -1,6 +1,20 @@
 
+body {
+  width: 100% !important;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 table {
   font-family: Arial, sans-serif;
+
+
+  tr,
+  td {
+    //@include test;
+  }
 }
 
 .white {
@@ -170,6 +184,30 @@ table.footer {
   padding: 0 24px 24px !important;
 }
 
+
+
+.logos-sponsor {
+  //@include test;
+
+  a {
+    //@include test;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid $lighter-grey;
+  }
+
+  h4 {
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  img {
+    //@include test;
+    display: block;
+    width: 122px;
+  }
+}
 
 
 

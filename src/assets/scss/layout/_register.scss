@@ -1,0 +1,190 @@
+
+$back: $red;
+
+.gen-content-frame {
+  margin: 0 auto;
+  text-align: inherit;
+  border: 5px solid $white;
+  border-bottom: 0;
+  width: 600px !important;
+
+}
+
+.padme {
+  padding: 12px;
+}
+
+.padmef {
+  padding: 48px 24px 0;
+}
+
+
+.gen-content-header {
+  padding: 24px 24px 80px;
+  text-align: center;
+
+  small {
+    font-size: 1em;
+    display: block;
+    margin-bottom: 48px;
+    color: $white;
+  }
+
+  em {
+    margin-top: 48px;
+    display: block;
+    color: $white;
+  }
+}
+
+table.register-body {
+  background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-reg-bg.png');
+  background-color: $back;
+  background-position: right top;
+  width: 100%;
+  height: 100%;
+  //-display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+
+  @include breakpoint($sm-down) {
+    background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-reg-bg.png') !important;
+    background-position: right top !important;
+  }
+
+  h1 {
+    color: $white;
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+
+  .gen-content-body a {
+    @include linkcolor (darken($back, 10%), darken);
+  }
+
+  .gen-content-body {
+    width: 100%;
+    background: $white;
+    width: 100%;
+    font-size: 15px;
+    max-width: 600px !important;
+
+    .padmes {
+      padding: 24px !important;
+
+    }
+  }
+
+
+
+  table.footer {
+    color: lighten($white, 30%);
+
+    @include breakpoint($md-up) {
+      max-width: 600px !important;
+    }
+
+    a {
+      @include linkcolor (lighten($white, 30%), lighten);
+    }
+  }
+
+
+
+  .linkb {
+    @include linkcolor ($white, darken);
+    border-radius: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 8px 0;
+    display: block;
+    background-color: $red;
+    color: $white !important;
+    font-size: 17px;
+  }
+
+
+  .logos-sponsor {
+    color: $dark-grey;
+  }
+
+  .social-body {
+    //background-color: $back;
+    border-top: 1px solid $back;
+    border-bottom: 1px solid $back;
+    color: $dark-grey;
+
+    .button {
+      color: $white;
+    }
+
+    a {
+      @include linkcolor ($white, darken);
+    }
+  }
+
+}
+
+.wifi {
+  border: 1px solid $lighter-grey;
+  width: 100%;
+
+  td {
+    padding: 12px;
+  }
+
+  td:first-of-type {
+    text-align: right;
+  }
+
+}
+
+
+.meetvibe {
+
+  td {
+    padding: 0 12px;
+  }
+
+  img {
+    width: 80px;
+  }
+}
+
+.locations {
+  //@include test;
+  width: 100%;
+
+  a {
+    font-size: 12px;
+  }
+
+
+  strong {
+    display: block;
+  }
+
+  td {
+    //width: 33%;
+    padding: 6px;
+  }
+
+
+  .adr {
+    display: block;
+    color: $grey;
+    margin: 6px 0 12px;
+    font-size: 13px;
+  }
+
+  small {
+    color: $grey;
+  }
+
+}
+
+
+

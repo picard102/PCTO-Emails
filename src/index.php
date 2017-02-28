@@ -15,7 +15,7 @@
 ?>
 
 <style>
-  
+
   iframe {
     width: 100%;
     display: block;
@@ -26,32 +26,44 @@
 
 </style>
 
-<a href="/submit.php">Submit</a>
-<iframe src="/submit.php"></iframe>
+<a href="thanks.php">Thankyou</a>
+<iframe src="thanks.php"></iframe>
 
-<a href="/submit_co.php">Submit Co</a>
-<iframe src="/submit_co.php"></iframe>
+<a href="welcome.php">Welcome</a>
+<iframe src="welcome.php"></iframe>
 
-<a href="/edit.php">Edit</a>
-<iframe src="/edit.php"></iframe>
+<a href="register.php">Register</a>
+<iframe src="register.php"></iframe>
 
-<a href="/approved.php">Approved</a>
-<iframe src="/approved.php"></iframe>
+<a href="back.php">Back</a>
+<iframe src="back.php"></iframe>
 
-<a href="/reject.php">Reject</a>
-<iframe src="/reject.php"></iframe>
+<a href="submit.php">Submit</a>
+<iframe src="submit.php"></iframe>
 
-<a href="/schedule.php">Schedule</a>
-<iframe src="/schedule.php"></iframe>
+<a href="submit_co.php">Submit Co</a>
+<iframe src="submit_co.php"></iframe>
 
-<a href="/schedule_co.php">Schedule Co</a>
-<iframe src="/schedule_co.php"></iframe>
+<a href="edit.php">Edit</a>
+<iframe src="edit.php"></iframe>
 
-<a href="/waitlist.php">Waitlist</a>
-<iframe src="/waitlist.php"></iframe>
+<a href="approved.php">Approved</a>
+<iframe src="approved.php"></iframe>
 
-<a href="/submit_live.php">Submit Live</a>
-<iframe src="/submit_live.php"></iframe>
+<a href="reject.php">Reject</a>
+<iframe src="reject.php"></iframe>
+
+<a href="schedule.php">Schedule</a>
+<iframe src="schedule.php"></iframe>
+
+<a href="schedule_co.php">Schedule Co</a>
+<iframe src="schedule_co.php"></iframe>
+
+<a href="waitlist.php">Waitlist</a>
+<iframe src="waitlist.php"></iframe>
+
+<a href="submit_live.php">Submit Live</a>
+<iframe src="submit_live.php"></iframe>
 
 
 
