@@ -1,10 +1,10 @@
 
-<table class="logos-sponsor">
+<table class="logos-sponsor2">
 <tr>
   <td>
 
-  <center>
-    <h4>SPONSORS</h4>
+
+    <h4>Sponsors</h4>
     <p>Send a thank you to our many supporters - their sponsorship helps us keep PodCamp Toronto a free event for all attendees, and your love helps keep them coming back ;)</p>
    <a href="http://www.ryersonrta.com/">
     <img src="http://podcamptoronto.com/external/img/raster/email-sponsors/ryerson.png">
@@ -38,7 +38,7 @@
     <a href="http://www.rightsleeve.com/">
      <img src="http://podcamptoronto.com/external/img/raster/email-sponsors/rs.png">
    </a>
-   </center>
+
   </td>
 </tr>
 </table>

@@ -159,4 +159,24 @@ table.thanks-body {
 }
 
 
+.logos-sponsor2 {
+
+  a {
+    //@include test;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid $lighter-grey;
+  }
+
+
+  img {
+    //@include test;
+    display: block;
+    width: 122px;
+  }
+}
+
+
+
+
 
