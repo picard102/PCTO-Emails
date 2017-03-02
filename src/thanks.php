@@ -44,7 +44,7 @@
 
                   <p>Thank you for joining us for another successful year!</p>
 
-                  <p>Since its inception in 2007, PodCamp Toronto has had a reputation for being pretty awesome and without a doubt, <strong>#PCTO17</strong> was one of our best years yet, thanks in part to you, our volunteers, and generous sponsors!</p>
+                  <p>Since its inception in 2007, PodCamp Toronto has had a reputation for being pretty awesome. Without a doubt, #PCTO17 was one of our best years yet, thanks in part to you, our volunteers, and generous sponsors!</p>
 
                   <p>The dedication from everyone in the PodCamp community is part of what inspires us to do what we do!</p>
 
@@ -64,6 +64,9 @@
                 </tr>
 
 
+
+
+
                 <tr>
                   <td class="no-top">
                   <?php require'templates/sponsors.php'; ?>
@@ -78,8 +81,11 @@
                 </tr>
 
 
+
+
                 <tr>
                   <td class="no-top">
+
 
           <h4>MeetVibe</h4>
           <table class="meetvibe"><tr>

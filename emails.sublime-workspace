@@ -371,27 +371,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "<?php\n/**\n * Submission recipt confirmation\n *\n * PHP version 5\n *\n * @category PHP\n * @package  @theme_folder@\n * @author   @author_name@  <@author_email@>\n * @version  Release: @package_version@\n * @link     @git_link@\n */\n?>\n<!DOCTYPE html>\n\n<html class=\"no-js\">\n<head>\n  <meta content=\"width=device-width, initial-scale=1\" name=\"viewport\"><?php\n      $css = file_get_contents('style.css');\n      echo '<style>'.$css.'</style>';\n    ?>\n\n  <title>\n  </title>\n</head>\n\n<body>\n  <table align=\"center\" class=\"body thanks-body\" valign=\"top\">\n    <tr>\n      <td align=\"center\" class=\"padmef\" valign=\"top\">\n        <table class=\"gen-content-frame\">\n          <tr>\n            <td class=\"gen-content-header\"><small>PodCamp Toronto</small> </td>\n          </tr>\n\n\n\n          <tr>\n            <td align=\"center\" class=\"padme\" valign=\"top\">\n              <h1>Thank You *|FNAME|*!</h1>\n\n              <table class=\"gen-content-body\">\n                <tr>\n                  <td class=\"padmes\">\n\n                  <p>Thank you for joining us for another successful year!</p>\n\n                  <p>Since its inception in 2007, PodCamp Toronto has had a reputation for being pretty awesome and without a doubt, <strong>#PCTO17</strong> was one of our best years yet, thanks in part to you, our volunteers, and generous sponsors!</p>\n\n                  <p>The dedication from everyone in the PodCamp community is part of what inspires us to do what we do!</p>\n\n                  <p>If you are interested in helping out with PodCamp next year <a href=\"https://goo.gl/forms/NnddMgVFFQcNcaHK2\">let us know</a>. Or if you'd like to make a financial contribution can donate via paypal or by sending an e-transfer to sponsorship@podcamptoronto.com</p>\n\n                  <h4>There's Still More</h4>\n\n                  <p>If you have any <strong>pictures</strong> from PCTO17, share them on our <a href=\"https://www.flickr.com/groups/podcamptoronto/\">Flickr group</a>, and share any other content you've created with <strong>#PCTO17</strong> on your network of choice.</p>\n\n                  <p>Leave <strong>feedback</strong> on sessions you attended, to let the presenter know what you loved about their presentation, or what could be improved. </p>\n\n                  <p>We're also asking our incredible presenters to post their videos and slides so you can go back and either review them or enjoy them for the first time. We'll send out an update on our social channels as those come.</p>\n\n                  <p>That's it for now! Pencil Feb. 24 and 25, 2018 into your calendars and stay tuned for updates!</p>\n\n                  </td>\n                </tr>\n\n\n                <tr>\n                  <td class=\"no-top\">\n                  <?php require'templates/sponsors.php'; ?>\n                  </td>\n                </tr>\n\n\n                <tr>\n                  <td class=\"no-top\">\n                  <?php require'templates/social.php'; ?>\n                  </td>\n                </tr>\n\n\n                <tr>\n                  <td class=\"no-top\">\n\n          <h4>MeetVibe</h4>\n          <table class=\"meetvibe\"><tr>\n          <td><a href=\"https://meetvibe.com/pcto\"><img src=\"http://podcamptoronto.com/external/img/raster/2017/emails/meetvibeapp.png\"></a></td>\n          <td>\n          <p>Maximize networking opportunities and stay connected with the right people after PodCamp Toronto.</p>\n                    </td></tr></table>\n\n\n\n                    <h4>Think you got a great podcast?</h4>\n\n                    <table class=\"meetvibe\">\n                      <tr>\n                        <td>\n                          <a href=\"https://meetvibe.com/pcto\">\n                            <img src=\"http://podcamptoronto.com/external/img/raster/email-sponsors/towebfest.png\">\n                          </a>\n                        </td>\n                        <td>\n                          <p>Our friends at <a href=\"http://www.towebfest.com/\" target=\"_blank\">T.O.WebFest</a> are offering a special discount code to PodCampers who want to submit to their Podcast Series category. Deadline to enter March 28!<br>\n                          <a href=\"http://www.towebfest.com/submit\" target=\"_blank\">Get on it now</a> and you could be a winner at #towebfest 2017.</p>\n                          <p>Discount code: <strong>PODCAMPWEBFEST</strong></p>\n                        </td>\n                      </tr>\n                    </table>\n\n                  </td>\n                </tr>\n\n              </table>\n            </td>\n          </tr>\n\n\n          <tr>\n            <td align=\"center\" class=\"padmes\" valign=\"top\">\n              <table class=\"footer\">\n                <tr>\n                  <td class=\"footer-body\">\n                    <a href=\"http://podcamptoronto.com\">PodCampToronto.com</a> &bull; <a href=\"mailto:info@podcamptoronto.com\">Contact Us</a>\n                    <p>&copy; PodCamp Toronto, 3-392 Wilson Ave, Toronto Ont, CAN M3H 1S9</p>\n                    <p>This message was sent to <a href=\"mailto:*|EMAIL|*\">*|EMAIL|*</a> and intended for *|FNAME|*. You are reciving this becuase you have attended PodCamp Toronto previously.</p>\n                    <a href=\"*|UNSUB|*\">Remove me from this list</a>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n        </table>\n      </td>\n    </tr>\n  </table>\n  <?php\n    $GLOBALS['current_url'] = 'http://'.$_SERVER['SERVER_NAME'];\n    echo '<script src=\"'.$GLOBALS['current_url'].':25710/livereload.js?snipver=1\"></script>';\n  ?>\n</body>\n</html>",
-			"file": "src/thanks.php",
-			"file_size": 5679,
-			"file_write_time": 131328750470308561,
-			"settings":
-			{
-				"buffer_size": 5540,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/assets/scss/layout/_thanks.scss",
-			"settings":
-			{
-				"buffer_size": 2525,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -462,10 +441,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/MAMP/htdocs/PCTO-Emails/src",
-		"/C/MAMP/htdocs/PCTO-Emails/src/assets",
-		"/C/MAMP/htdocs/PCTO-Emails/src/assets/scss",
-		"/C/MAMP/htdocs/PCTO-Emails/src/assets/scss/layout"
+		"/Applications/MAMP/htdocs/Email-Templates/src"
 	],
 	"file_history":
 	[
@@ -765,69 +741,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/thanks.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5540,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								757,
-								757
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 660.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/assets/scss/layout/_thanks.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2525,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								989,
-								989
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 264.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
