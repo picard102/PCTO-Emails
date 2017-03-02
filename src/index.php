@@ -26,6 +26,9 @@
 
 </style>
 
+<a href="slides.php">Slides</a>
+<iframe src="slides.php"></iframe>
+
 <a href="thanks.php">Thankyou</a>
 <iframe src="thanks.php"></iframe>
 
