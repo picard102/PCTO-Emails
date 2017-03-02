@@ -102,7 +102,6 @@
                   </td>
                 </tr>
 
-                
                 <tr>
                   <td class="no-top">
                   <?php require'templates/social.php'; ?>
