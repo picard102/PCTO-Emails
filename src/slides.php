@@ -48,18 +48,13 @@
 
 <p>Awesome job. We put on a great weekend and we couldn't have done it without you.</p>
 
-<p>Not everyone who wanted to come to your -TYPE- was able to. Whether it's because they were the in the next room over or because they live in Cambodia, there are people out there who still want to take in what you had to say. And we have a solution for that!</p>
+<p>Not everyone who wanted to come to your -TYPE- was able to. Whether it's because they were the in the next room over or because they live in Cambodia, there are people out there who still want to take in what you had to say, and we have a solution for that!</p>
 
-<p>If you go back to your <a href="-LINK-">session</a> posting on our website, you'll see that you can now post your videos and slides. While it's unfortunate that we weren't able to record sessions this year, at least we can keep it going with the materials you worked so hard on in advance.</p>
+<p>If you go back to your <a href="-LINK-">-TYPE-</a> on our website, you'll see that you can now post your videos and slides from your presentation so that those who couldn't be there can benefit, and those who were there can refresh.</p>
 
-<p>Also attendees can comment on and review your session now, so get in there and bask in your accolades!</p>
-
-<p>Also attendees can comment on and review your session now, here's what some of them had to say:</p>
-
-
+<p>Also attendees can comment on and review your -TYPE- now, so get in there and bask in your accolades!</p>
 
 <p>We had a really great time, and we hope you did too.</p>
-
 
           </td>
         </tr>
