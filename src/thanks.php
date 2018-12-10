@@ -44,7 +44,7 @@
 
                   <p>Thank you for joining us for another successful year!</p>
 
-                  <p>Since its inception in 2007, PodCamp Toronto has had a reputation for being pretty awesome, and without a doubt, <strong>#pcto19</strong> was one of our best years yet, thanks to you, our volunteers, and generous sponsors!</p>
+                  <p>Since its inception in 2007, PodCamp Toronto has had a reputation for being pretty awesome, and without a doubt, <strong>#PCTO17</strong> was one of our best years yet, thanks to you, our volunteers, and generous sponsors!</p>
 
                   <p>The dedication from everyone in the PodCamp community is part of what inspires us to do what we do!</p>
 
@@ -52,7 +52,7 @@
 
                   <h4>There's Still More</h4>
 
-                  <p>If you have any <strong>pictures</strong> from PCTO17, share them in our <a href="https://www.flickr.com/groups/podcamptoronto/">Flickr group</a>, and share any other content you've created with <strong>#pcto19</strong> on any other platform.</p>
+                  <p>If you have any <strong>pictures</strong> from PCTO17, share them in our <a href="https://www.flickr.com/groups/podcamptoronto/">Flickr group</a>, and share any other content you've created with <strong>#PCTO17</strong> on any other platform.</p>
 
                   <p>Leave <strong>feedback</strong> on sessions you attended, to let the presenter know what you loved about their presentation, or what could be improved. </p>
 
@@ -75,7 +75,7 @@
 
           <h4>MeetVibe</h4>
           <table class="meetvibe"><tr>
-          <td><a href="https://meetvibe.com/pcto"><img src="http://podcamptoronto.com/external/img/raster/2019/emails/meetvibeapp.png"></a></td>
+          <td><a href="https://meetvibe.com/pcto"><img src="http://podcamptoronto.com/external/img/raster/2017/emails/meetvibeapp.png"></a></td>
           <td>
           <p>Maximize networking opportunities and stay connected with the right people after PodCamp Toronto.</p>
                     </td></tr></table>
@@ -93,7 +93,7 @@
                         </td>
                         <td>
                           <p>Our friends at <a href="http://www.towebfest.com/" target="_blank">T.O.WebFest</a> are offering a special discount code to PodCampers who want to submit to their Podcast Series category. Deadline to enter March 28!<br>
-                          <a href="http://www.towebfest.com/submit" target="_blank">Get on it now</a> and you could be a winner at #towebfest 2019.</p>
+                          <a href="http://www.towebfest.com/submit" target="_blank">Get on it now</a> and you could be a winner at #towebfest 2017.</p>
                           <p>Discount code: <strong>PODCAMPWEBFEST</strong></p>
                         </td>
                       </tr>

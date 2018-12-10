@@ -2,7 +2,7 @@
 $submit: $dark-blue;
 
 table.approved-body {
-  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-approved-bg.png');
+  background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-approved-bg.png');
   background-color: $submit;
   background-position: right top;
   width: 100%;
@@ -12,7 +12,7 @@ table.approved-body {
   background-size: cover;
 
   @include breakpoint($sm-down) {
-    background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-approved-bgm.png') !important;
+    background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-approved-bgm.png') !important;
     background-position: right top !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;

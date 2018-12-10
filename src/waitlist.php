@@ -44,7 +44,7 @@
         <tr>
           <td>
             <p><strong>Hi -FNAME-</strong>,</p>
-            <p>Unfortunatly, your -TYPE-, &quot;-TITLE-&quot; was not selected for inclusion on our 2019 schedule.</p>
+            <p>Unfortunatly, your -TYPE-, &quot;-TITLE-&quot; was not selected for inclusion on our 2017 schedule.</p>
             <p>We&#39;ll put you on a waiting list and if a spot opens up, notify you.</p>
           </td>
         </tr>

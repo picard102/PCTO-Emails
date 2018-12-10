@@ -38,7 +38,7 @@ $back: $darker-grey;
 }
 
 table.back-body {
-  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-back-bg.png');
+  background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-back-bg.png');
   background-color: $back;
   background-position: right top;
   width: 100%;
@@ -52,7 +52,7 @@ table.back-body {
 
 
   @include breakpoint($sm-down) {
-    background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-back-bgm.png') !important;
+    background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-back-bgm.png') !important;
     background-position: right top !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;

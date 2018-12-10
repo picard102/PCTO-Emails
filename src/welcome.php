@@ -30,7 +30,7 @@
     <tr>
       <td class="gen-content-header">
         <small>PodCamp Toronto</small>
-        <img src="http://podcamptoronto.com/external/img/raster/2019/emails/mark.png">
+        <img src="http://podcamptoronto.com/external/img/raster/2017/emails/mark.png">
       </td>
     </tr>
     <tr>
@@ -47,7 +47,7 @@
 
           <h4>MeetVibe</h4>
           <table class="meetvibe"><tr>
-          <td><a href="https://meetvibe.com/pcto"><img src="http://podcamptoronto.com/external/img/raster/2019/emails/meetvibeapp.png"></a></td>
+          <td><a href="https://meetvibe.com/pcto"><img src="http://podcamptoronto.com/external/img/raster/2017/emails/meetvibeapp.png"></a></td>
           <td>
           <p>Maximize networking opportunities and connect with the right people at PodCamp Toronto. Before the event, download the MeetVibe app <a href="https://meetvibe.com/pcto">https://meetvibe.com/pcto</a>.</p>
           <p>Be sure to enable Bluetooth on your device to receive event-specific information and discover the profiles of fellow digital media enthusiasts in your proximity.</p>
@@ -57,7 +57,7 @@
             <h4>Wi-Fi Instructions</h4>
             <table class="wifi">
             <tr><td>Network:</td><td> <strong>RU-Secure</strong></td></tr>
-            <tr><td>Username:</td><td> <strong>podcamp.2019</strong></td></tr>
+            <tr><td>Username:</td><td> <strong>podcamp.2017</strong></td></tr>
             <tr><td>Password:</td><td> <strong>RUgue$t639</strong></td></tr>
             </table>
 
@@ -108,7 +108,7 @@
 
 
 
-            <td>
+            <td> 
 <small>Live Podcaster Night</small>
             <strong>Imperial Pub</strong>
 <span class="adr">
@@ -138,7 +138,7 @@
   <tr>
           <td class="no-top">
 <h4>Merchandise</h4>
-<img src="http://podcamptoronto.com/external/img/raster/2019/emails/merch.jpg" width='100%'>
+<img src="http://podcamptoronto.com/external/img/raster/2017/emails/merch.jpg" width='100%'>
           </td>
         </tr>
 
@@ -147,7 +147,7 @@
   <h4>What To Bring</h4>
 
 <ul><li><p>
-Lots of attendees bring their laptops and tablets for taking notes and posting tweets during our sessions (#pcto19). We're working with our venue hosts to get Wi-Fi set up for PodCamp attendees. That said, PodCamp is a rare opportunity for us to talk face to face, so let's do that too!
+Lots of attendees bring their laptops and tablets for taking notes and posting tweets during our sessions (#PCTO17). We're working with our venue hosts to get Wi-Fi set up for PodCamp attendees. That said, PodCamp is a rare opportunity for us to talk face to face, so let's do that too!
 </p></li>
 <li><p>
 Need juice? We don't have a charging station available but there are plugs all around the venue, so do bring your chargers!
@@ -160,7 +160,7 @@ Other good accoutrements include water bottles, snacks, and some spending money.
 </p></li>
 <li><p>
 Need more guidance?
-Information about our venues, local accommodations and travel/parking options are available on our <a href="http://2019.podcamptoronto.com/logistics/">Logistics page</a>.
+Information about our venues, local accommodations and travel/parking options are available on our <a href="http://2017.podcamptoronto.com/logistics/">Logistics page</a>.
 </p></li>
 
 </ul>
@@ -179,7 +179,7 @@ Information about our venues, local accommodations and travel/parking options ar
   <li><p><strong>Since PCTO is an unconference, the standard conference rules do not apply.</strong> If you find yourself sitting in a session with a title and description that really spoke to you, but the actual content isn&rsquo;t what you had hoped for, walk yourself out of the room and find one you will enjoy. Quietly, and respectfully, of course!</p></li>
   <li><p><strong>Sessions are 45 minutes long with a 15 minute break between each.</strong> Please pack up quickly at the end of each session to give the next presenter time to set up.</p></li>
   <li><p><strong>Please respect the PodCamp space.</strong> Ryerson University has been our home since the first PodCamp Toronto in 2007, and we would like to continue this tradition. Put your trash in the proper trash bins.</p></li>
-  <li><p><strong>Use the &#35;PCTO17 hashtag.</strong> Be a friend and tell the PodCamp story for those who can&rsquo;t attend by including the #pcto19 hashtag in all of your tweets, pics, check-ins, blogs, etc!</p></li>
+  <li><p><strong>Use the &#35;PCTO17 hashtag.</strong> Be a friend and tell the PodCamp story for those who can&rsquo;t attend by including the #PCTO17 hashtag in all of your tweets, pics, check-ins, blogs, etc!</p></li>
 </ul>
 
           </td>
@@ -194,7 +194,7 @@ Information about our venues, local accommodations and travel/parking options ar
 <td> <a href="https://meetvibe.com/pcto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/towebfest.png"></a></td>
 <td>
 
-<p>Our friends at <a href="http://www.towebfest.com/" target="_blank">T.O.WebFest</a> are offering a special discount code to PodCampers who want to submit to their Podcast Series category. Deadline to enter March 28! <br/><a href="http://www.towebfest.com/submit" target="_blank">Get on it now</a> and you could be a winner at #towebfest 2019.</p>
+<p>Our friends at <a href="http://www.towebfest.com/" target="_blank">T.O.WebFest</a> are offering a special discount code to PodCampers who want to submit to their Podcast Series category. Deadline to enter March 28! <br/><a href="http://www.towebfest.com/submit" target="_blank">Get on it now</a> and you could be a winner at #towebfest 2017.</p>
 
 <p>Discount code: <strong>PODCAMPWEBFEST</strong></p>
 </td></tr></table>

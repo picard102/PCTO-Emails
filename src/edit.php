@@ -46,7 +46,7 @@
           <td>
           <p><strong>Hi -FNAME-</strong>,</p>
           <p>We have received your edit(s) for your -TYPE- proposal, &ldquo;<em>-TITLE-</em>.&rdquo;</p>
-          <p>Our team will review it in the next 24-48 hours and let you know if it meets the content guidelines for #pcto19.</p>
+          <p>Our team will review it in the next 24-48 hours and let you know if it meets the content guidelines for #PCTO17.</p>
           <p>In the meantime, to review or check the status of your -TYPE- proposal, please visit your <a href="-LINK-">submission page</a>.</p>
           </td>
         </tr>

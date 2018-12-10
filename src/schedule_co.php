@@ -44,7 +44,7 @@
         <tr>
           <td>
             <p><strong>Hey</strong>,</p>
-            <p>Congrats, the -TYPE-, &quot;-TITLE-&quot; you&#39;re listed as a speaker on  has been selected for inclusion on our 2019 schedule.</p>
+            <p>Congrats, the -TYPE-, &quot;-TITLE-&quot; you&#39;re listed as a speaker on  has been selected for inclusion on our 2017 schedule.</p>
             <h3>-DATE- at -TIME-, in room -ROOM-</h3>
             <p>If for some reason you cannot present at the time assigned, please let the -TYPE- orginizer, -NAME-, know.</p>
           </td>

@@ -30,7 +30,7 @@
     <tr>
       <td class="gen-content-header">
         <small>PodCamp Toronto</small>
-        <img src="http://podcamptoronto.com/external/img/raster/2019/emails/mark.png">
+        <img src="http://podcamptoronto.com/external/img/raster/2017/emails/mark.png">
       </td>
     </tr>
     <tr>
@@ -47,7 +47,7 @@
 
             <p>We'll be emailing shortly when tickets are available, but presenting is a great chance to soft-launch your latest presentation, get exposure and become famous! </p>
 
-            <a href="http://2019.podcamptoronto.com/submit/session-submit/" class="linkb button">Apply to Present</a>
+            <a href="http://2017.podcamptoronto.com/submit/session-submit/" class="linkb button">Apply to Present</a>
           </td>
         </tr>
         <tr>
