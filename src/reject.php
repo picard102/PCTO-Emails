@@ -44,7 +44,7 @@
         <tr>
           <td>
           <p><strong>Hi -FNAME-</strong>,</p>
-          <p>Unfortunately, it looks like your -TYPE- proposal, &quot;<em>-TITLE-</em>,&quot; does not meet the content guidelines for #PCTO17.</p>
+          <p>Unfortunately, it looks like your -TYPE- proposal, &quot;<em>-TITLE-</em>,&quot; does not meet the content guidelines for #pcto19.</p>
           <p>Here are some notes from the PCTO Organizing Committee about why we couldn&rsquo;t accept your submission:</p>
           <p>-REASON-</p>
           <p>You can review your -TYPE- proposal on your <a href="-LINK-">submission page</a> page and resubmit with the required adjustments.</p>

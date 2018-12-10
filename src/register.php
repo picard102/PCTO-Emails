@@ -30,7 +30,7 @@
     <tr>
       <td class="gen-content-header">
         <small>PodCamp Toronto</small>
-        <img src="http://podcamptoronto.com/external/img/raster/2017/emails/mark.png">
+        <img src="http://podcamptoronto.com/external/img/raster/2019/emails/mark.png">
       </td>
     </tr>
     <tr>
@@ -44,9 +44,9 @@
 
             <p>With over 60 sessions covering six categories, there's something to appeal to every digital hobbyist and professional.</p>
             <p>So head over to our website for more details, and to reserve your spot. Space is limited.</p>
-            <a href="http://2017.podcamptoronto.com/?tickets" class="linkb button">Get Your Tickets Now</a>
+            <a href="http://2019.podcamptoronto.com/?tickets" class="linkb button">Get Your Tickets Now</a>
 
-            <p>And there's still time to <a href="http://2017.podcamptoronto.com/submit/session-submit/">submit</a> your speaking proposals as well. Cut off is 6pm on Sunday the 19th, with the schedule being released on the next morning.</p>
+            <p>And there's still time to <a href="http://2019.podcamptoronto.com/submit/session-submit/">submit</a> your speaking proposals as well. Cut off is 6pm on Sunday the 19th, with the schedule being released on the next morning.</p>
           </td>
         </tr>
 

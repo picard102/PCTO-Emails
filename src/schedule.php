@@ -45,7 +45,7 @@
         <tr>
           <td>
             <p><strong>Hi -FNAME-</strong>,</p>
-            <p>Congrats, your -TYPE-, &quot;-TITLE-&quot; has been selected for inclusion on our 2017 schedule.</p>
+            <p>Congrats, your -TYPE-, &quot;-TITLE-&quot; has been selected for inclusion on our 2019 schedule.</p>
             <h3>-DATE- at -TIME-, in room -ROOM-</h3>
             <p>If for some reason you cannot present at the time assigned, please let us know by clicking on the withdraw button on your <a href="-LINK-">-TYPE- page</a>.</p>
           </td>

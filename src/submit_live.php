@@ -46,7 +46,7 @@
           <td>
             <p><strong>Hey</strong>,</p>
             <p>We have received your Live Show submission, &quot;<em>-TITLE-</em>.&quot;</p>
-            <p>Our team will review it within the next 48 hours and let you know if it meets the <a href="http://www.podcamptoronto.com/external/files/pcto_speakers.pdf">content guidelines</a> for #PCTO17.</p>
+            <p>Our team will review it within the next 48 hours and let you know if it meets the <a href="http://www.podcamptoronto.com/external/files/pcto_speakers.pdf">content guidelines</a> for #pcto19.</p>
             <p>Feel free to contact us with any questions or concerns.</p>
           </td>
         </tr>
@@ -73,5 +73,3 @@
 <?php
   require'templates/footer-submit.php';
 ?>
-
-

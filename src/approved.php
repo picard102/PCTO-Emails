@@ -45,7 +45,7 @@
         <tr>
           <td>
             <p><strong>Hi -FNAME- </strong>,</p>
-            <p>Congrats! Your -TYPE- proposal, &quot;<em>-TITLE-</em>,&quot; has been reviewed and meets our guidelines for content at #PCTO17.</p>
+            <p>Congrats! Your -TYPE- proposal, &quot;<em>-TITLE-</em>,&quot; has been reviewed and meets our guidelines for content at #pcto19.</p>
             <p>The next step is that your -TYPE- is reviewed by the community.</p>
             <p>Attendees can &ldquo;vote&rdquo; for your session by using the Bookmark link on the session description page. Submissions close on Wednesday, February 10th, at which point we&rsquo;ll develop the schedule based on community interest and PodCamp topic representation, as well as some special considerations to be made by the organizing team. The schedule will then be released on Monday, February 15th!</p>
             <p>You can review your -TYPE- via your <a href="-LINK-">submission page</a>.</p>

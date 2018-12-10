@@ -2,7 +2,7 @@
 $submit: $black;
 
 table.submitlive-body {
-  background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-submit-bg.png');
+  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-submit-bg.png');
   background-color: $submit;
   background-position: right bottom;
   width: 100%;
@@ -12,7 +12,7 @@ table.submitlive-body {
   background-size: cover;
 
   @include breakpoint($sm-down) {
-    background-image: url('http://podcamptoronto.com/external/img/raster/2017/emails/email-submit-bgm.png') !important;
+    background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-submit-bgm.png') !important;
     background-position: right top !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
