@@ -8,12 +8,13 @@ body {
 
 
 table {
+  @include test;
   font-family: Arial, sans-serif;
 
 
   tr,
   td {
-    //@include test;
+    @include test;
   }
 }
 
@@ -21,16 +22,10 @@ table {
   background-color: $white;
 }
 
-.fill {
 
-  @include breakpoint($md) {
-    width: 25% !important;
-  }
 
-  @include breakpoint($lg-up) {
-    width: 35% !important;
-  }
-
+.body {
+  @include test;
 }
 
 
@@ -86,8 +81,8 @@ table {
     height: 80px;
 
     @include breakpoint($sm-down) {
-      width: 0px !important;
-      height: 0px !important;
+      width: 0 !important;
+      height: 0 !important;
       float: right !important;
     }
   }

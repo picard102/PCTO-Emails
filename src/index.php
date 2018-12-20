@@ -26,6 +26,9 @@
 
 </style>
 
+<a href="new.php">New</a>
+<iframe src="new.php"></iframe>
+
 <a href="slides.php">Slides</a>
 <iframe src="slides.php"></iframe>
 
