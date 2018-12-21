@@ -29,9 +29,11 @@
     <td class="main-header">
       <table><tr><td>
       <p>🎁</p>
-      <h1>Give the Gift of Knowledge</h1>
-      <p>Tis the PodCamp season. </p>
-      <a href="" class="button">Apply Now  <span>▶</span></a>
+      <h1>Give the Gift of&nbsp;Knowledge</h1>
+      <p>We're accepting submissions for sessions, panels, and workshops now, so if you have a topic you're passionate about, come share it. PodCamp is only as good as those who step up to share their experience, knowledge and ideas with the&nbsp;community.</p> <p>C'mon and hook us up with that big brain of yours. Don't be&nbsp;shy! </p>
+
+      <a href="https://2019.podcamptoronto.com/submit/session-submit?umt_source=giftmailer" class="button">Apply Now  <span>▶</span></a><br/>
+      <p><small>Submit by February 1</small></p>
       </td></tr></table>
     </td>
   </tr>
@@ -41,14 +43,30 @@
   <tr>
     <td class="main-content">
       <table><tr><td>
-      <h2>Give the Gift of Knowledge</h2>
-      <p>Tis the PodCamp season. </p>
+      <h2>Canadian Podcasting Awards</h2>
+      <h3>Nominations close Jan 1</h3>
+      <p>Bla</p>
       </td></tr></table>
     </td>
   </tr>
 
+
   <tr>
-    <td class="sponsors">
+    <td class="pull-sponsor">
+      <table>
+        <tr>
+          <td> <a href="https://podnews.net?utm_source=podcamp"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/podnews.png"></a></td>
+          <td>
+            <p>A  quick, daily update with global news for those involved in podcasting and on-demand&nbsp;audio. <a href="https://podnews.net?utm_source=podcamp" class="button inline">Sign up <span>▶</span></a></p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td class="logos-sponsor">
       <?php
         require'templates/sponsors.php';
       ?>
@@ -71,76 +89,4 @@
 
 
 </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <table border="0" class="layout">
-        <tr>
-          <td class="content-col">
-
-<table border="0" style="width: 100%;">
-
-  <tr>
-    <td></td>
-    <td class="content-header">
-      <small>PodCamp Toronto</small>
-      <h1>Thanks</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td style="background: #fff;"></td>
-    <td>
-      <table class="content-body">
-        <tr>
-          <td>
-            <p><strong>Hey -FNAME-</strong>,</p>
-
-<p>Awesome job. We put on a great weekend and we couldn't have done it without you.</p>
-
-<p>Not everyone who wanted to come to your -TYPE- was able to. Whether it's because they were the in the next room over or because they live in Cambodia, there are people out there who still want to take in what you had to say, and we have a solution for that!</p>
-
-<p>If you go back to your <a href="-LINK-">-TYPE-</a> on our website, you'll see that you can now post your videos and slides from your presentation so that those who couldn't be there can benefit, and those who were there can refresh.</p>
-
-<p>Also attendees can comment on and review your -TYPE- now, so get in there and bask in your accolades!</p>
-
-<p>We had a really great time, and we hope you did too.</p>
-
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
- <tr>
-    <td style="background: #fff;" class="fill"></td>
-    <td>
-      <table class="content-body">
-        <tr>
-          <td class="no-top">
-            <?php
-            require'templates/social.php';
-            ?>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-
-<?php
-  require'templates/footer-submit.php';
-?>
+</body></html>

@@ -41,7 +41,6 @@ module.exports = function(grunt) {
         options: {
           config: '<%= pkg.path.srcpath %><%= pkg.path.scss %>/scss-lint.yml',
           colorizeOutput: true,
-          maxBuffer: '30000000000'
         },
 
     },
@@ -427,7 +426,7 @@ grunt.event.on('watch', function(action, filepath) {
 
   grunt.registerTask('devwatch', ['watch']);
 
-  grunt.registerTask('dev', ['bump-only:prepatch','clean:build','scsslint:dev','sass:dev','usebanner:dev','jshint:dev','concat','uglify:dev','svgmin','svgstore','copy:img','phplint:all','copy:build','replace']);
+  grunt.registerTask('dev', ['clean:build','scsslint:dev','sass:dev','usebanner:dev','jshint:dev','concat','uglify:dev','svgmin','svgstore','copy:img','phplint:all','copy:build','bump-only:prepatch','replace']);
 
   grunt.registerTask('build', ['bump-only:minor','clean:build','scsslint:dev','sass:build','usebanner:build','jshint:dev','concat','uglify:build','svgmin','svgstore','imagemin','imageoptim','phplint:all','copy:build','replace','bump-commit']);
 

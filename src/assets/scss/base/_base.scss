@@ -10,6 +10,7 @@ body {
 table {
   //@include test;
   font-family: Arial, sans-serif;
+  margin: 0 auto;
 
 
   tr,
@@ -22,15 +23,16 @@ table {
 .table-body {
   //@include test;
   width: 100%;
+
 }
 
 
 
 .main-header {
   //@include test;
-  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-reg-bg.png');
-  background-color: tint($blue, 85%);
-  background-position: left top;
+  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-reg-bg-w.png');
+  background-color: tint($black, 95%);
+  background-position: center top;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -41,7 +43,7 @@ table {
   table {
     width: 100%;
     max-width: 600px;
-    margin: 100px 0 48px;
+    margin: 100px auto 48px;
   }
 
   img {
@@ -53,7 +55,6 @@ table {
 
 .main-content {
   background-color: $white;
-  background-position: left top;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -70,12 +71,18 @@ table {
 
 .button {
   background: $brand;
-  padding: 8px 24px;
+  padding: .5em 1em;
   display: inline-block;
   border-radius: 5px;
   color: $white;
   font-family: sans-serif;
   text-decoration: none;
+
+  &.inline {
+    font-size: .7em;
+    padding: .05em .5em;
+    border-radius: 3px;
+  }
 
   &:hover {
     background: shade($brand, 20%);
@@ -83,7 +90,7 @@ table {
 
   span {
     margin-left: .5rem;
-    font-size: .5rem;
+    font-size: .7rem;
   }
 }
 
@@ -115,88 +122,91 @@ table {
   table {
     width: 100%;
     max-width: 600px;
-    margin: 24px 0;
+    margin: 24px auto;
   }
 
 }
 
 
 .social-footer {
-
   a {
     margin-right: 1em;
   }
 
   img {
-    @include size(35px);
+    @include size(32px);
   }
 }
 
 
 
-
-.social-body {
-  text-align: center;
-  font-size: 13px;
-  margin: 0 auto;
+.logos-sponsor {
+  //@include test;
   width: 100%;
-
-  td {
-    padding: 12px 0;
-  }
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 
   table {
-    border-spacing: 12px 6px;
-    border-collapse: separate;
-
-    td {
-      padding: 6px;
-      width: 30%;
-    }
-
-  }
-
-  h4 {
-    margin: 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-
-  .instagram {
-    background-color: $instagram;
-  }
-
-  .twitter {
-    background-color: $twitter;
-  }
-
-  .facebook {
-    background-color: $facebook;
-  }
-
-  .button {
-    border-radius: 20px;
-    text-align: center;
-
-    @include breakpoint($xs) {
-      display: block !important;
-      margin-bottom: 6px !important;
-      width: 100% !important;
-    }
+    width: 100%;
+    max-width: 600px;
   }
 
   a {
-    letter-spacing: 2px;
-    text-decoration: none;
-    padding: 3px 0;
-    display: block;
+    //@include test;
+    margin: 0;
+    display: inline-block;
+  }
 
-    @include breakpoint($sm-down) {
-      padding: 0 !important;
-    }
+  img {
+    //@include test;
+    @include size(90px);
+    display: block;
   }
 }
 
-.no-top {
-  padding: 0 24px 24px !important;
+
+
+.pull-sponsor {
+  //@include test;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 12px;
+
+  table {
+    border: 1px solid $lighter-grey;
+    width: 100%;
+    max-width: 600px;
+    margin: 12px auto;
+
+    td {
+      padding: 18px;
+      vertical-align: top;
+    }
+  }
+
+
+  p {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    letter-spacing: .9px;
+    margin: 0;
+  }
+
+  a {
+    margin: 0;
+    display: inline-block;
+  }
+
+  img {
+    //@include test;
+    @include size(90px);
+    display: block;
+  }
 }
+
+
+
