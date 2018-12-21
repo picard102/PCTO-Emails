@@ -27,7 +27,8 @@ module.exports = function(grunt) {
           sourceComments: false,
           includePaths: require('node-bourbon').includePaths
         },
-        files: {'<%= pkg.path.buildpath %><%= pkg.name %>/style.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/style.scss' }
+        files: {'<%= pkg.path.buildpath %><%= pkg.name %>/style.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/style.scss',
+        '<%= pkg.path.buildpath %><%= pkg.name %>/new.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/new.scss' }
       }
     },
 

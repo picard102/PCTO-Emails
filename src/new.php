@@ -14,15 +14,78 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php
+    $css = file_get_contents('new.css');
+    echo '<style>'.$css.'</style>';
     $css = file_get_contents('style.css');
     echo '<style>'.$css.'</style>';
   ?>
 </head>
 <body>
 
-<table class="body submitlive-body">
+<table class="table-body">
+
+
   <tr>
-    <td>
+    <td class="main-header">
+      <table><tr><td>
+      <p>🎁</p>
+      <h1>Give the Gift of Knowledge</h1>
+      <p>Tis the PodCamp season. </p>
+      <a href="" class="button">Apply Now  <span>▶</span></a>
+      </td></tr></table>
+    </td>
+  </tr>
+
+
+
+  <tr>
+    <td class="main-content">
+      <table><tr><td>
+      <h2>Give the Gift of Knowledge</h2>
+      <p>Tis the PodCamp season. </p>
+      </td></tr></table>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="sponsors">
+      <?php
+        require'templates/sponsors.php';
+      ?>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td class="main-footer">
+      <?php
+        require'templates/footer.php';
+      ?>
+    </td>
+  </tr>
+
+
+
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <table border="0" class="layout">
         <tr>
@@ -81,5 +144,3 @@
 <?php
   require'templates/footer-submit.php';
 ?>
-
-

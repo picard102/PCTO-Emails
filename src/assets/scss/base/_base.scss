@@ -8,109 +8,131 @@ body {
 
 
 table {
-  @include test;
+  //@include test;
   font-family: Arial, sans-serif;
 
 
   tr,
   td {
-    @include test;
+    //@include test;
+    padding: 0 12px;
   }
 }
 
-.white {
-  background-color: $white;
-}
-
-
-
-.body {
-  @include test;
-}
-
-
-.content-body {
-  background: $white;
+.table-body {
+  //@include test;
   width: 100%;
-  font-size: 15px;
-
-  @include breakpoint($md-up) {
-    max-width: 600px !important;
-  }
-
-  td {
-    padding: 24px;
-
-    @include breakpoint($sm-down) {
-      padding: 12px !important;
-    }
-  }
 }
 
-.content-header {
-  padding: 30px 24px 12px;
 
-  @include breakpoint($sm-down) {
-    padding: 30px 12px 12px !important;
-  }
 
-  h1 {
-    font-size: 45px;
-    line-height: 1em;
+.main-header {
+  //@include test;
+  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-reg-bg.png');
+  background-color: tint($blue, 85%);
+  background-position: left top;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 
-    @include breakpoint($sm-down) {
-      font-size: 25px !important;
-    }
-  }
-}
 
-.logo_col {
-  //background-color: $black;
-  width: 100px;
-  text-align: right;
-  vertical-align: top;
-  padding: 24px 6px 0;
-
-  @include breakpoint($sm-down) {
-    width: 12px !important;
-    padding: 6px !important;
+  table {
+    width: 100%;
+    max-width: 600px;
+    margin: 100px 0 48px;
   }
 
   img {
-    width: 80px;
-    height: 80px;
-
-    @include breakpoint($sm-down) {
-      width: 0 !important;
-      height: 0 !important;
-      float: right !important;
-    }
-  }
-}
-
-.layout {
-  table-layout: fixed;
-  width: 600px;
-
-  @include breakpoint($sm-down) {
-    width: 100% !important;
-  }
-
-  @include breakpoint($md-up) {
-    width: 70% !important;
+    @include size(100px);
   }
 }
 
 
-table.footer {
-  font-size: 10px;
+
+.main-content {
+  background-color: $white;
+  background-position: left top;
   width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 
-  td.footer-body {
-    padding: 24px;
+  table {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+
+
+.button {
+  background: $brand;
+  padding: 8px 24px;
+  display: inline-block;
+  border-radius: 5px;
+  color: $white;
+  font-family: sans-serif;
+  text-decoration: none;
+
+  &:hover {
+    background: shade($brand, 20%);
+  }
+
+  span {
+    margin-left: .5rem;
+    font-size: .5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+.main-footer {
+  background-color: $black;
+  color: $white;
+  background-position: left top;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+  p,
+  i,
+  a {
+    color: $white;
+    font-size: 12px;
+  }
+
+  table {
+    width: 100%;
+    max-width: 600px;
+    margin: 24px 0;
   }
 
 }
+
+
+.social-footer {
+
+  a {
+    margin-right: 1em;
+  }
+
+  img {
+    @include size(35px);
+  }
+}
+
+
 
 
 .social-body {
@@ -177,29 +199,4 @@ table.footer {
 
 .no-top {
   padding: 0 24px 24px !important;
-}
-
-
-
-.logos-sponsor {
-  //@include test;
-
-  a {
-    //@include test;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid $lighter-grey;
-  }
-
-  h4 {
-    margin: 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-
-  img {
-    //@include test;
-    display: block;
-    width: 122px;
-  }
 }
