@@ -31,7 +31,7 @@ table {
 .main-header {
   //@include test;
   background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-reg-bg-w.png');
-  background-color: tint($black, 95%);
+  background-color: tint($black, 90%);
   background-position: center top;
   width: 100%;
   height: 100%;
@@ -114,9 +114,14 @@ table {
 
   p,
   i,
+  .apple-link a,
   a {
     color: $white;
     font-size: 12px;
+
+    @include breakpoint($xs-down) {
+      font-size: 11px !important;
+    }
   }
 
   table {
@@ -205,8 +210,16 @@ table {
     //@include test;
     @include size(90px);
     display: block;
+
+    @include breakpoint($xs-down) {
+      display: none;
+    }
   }
+
+  .sponsor-image {
+    @include breakpoint($xs-down) {
+      display: none;
+    }
+  }
+
 }
-
-
-
