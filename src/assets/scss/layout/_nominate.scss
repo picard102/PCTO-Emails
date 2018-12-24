@@ -1,0 +1,68 @@
+
+.nominate-header {
+  //@include test;
+  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-award-bg-laurels.png');
+  background-color: $black;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: $white;
+
+
+  table {
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto 48px;
+  }
+
+  img {
+    @include size(100px);
+  }
+}
+
+
+
+
+.awards-footer {
+  background-color: $white;
+  color: $black;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+  p,
+  i,
+  .apple-link a,
+  a {
+    color: $black;
+    font-size: 12px;
+
+    @include breakpoint($xs-down) {
+      font-size: 11px !important;
+    }
+  }
+
+  table {
+    width: 100%;
+    max-width: 600px;
+    margin: 24px auto;
+  }
+
+}
+
+
+.social-footer {
+  a {
+    margin-right: 1em;
+  }
+
+  img {
+    @include size(32px);
+  }
+}

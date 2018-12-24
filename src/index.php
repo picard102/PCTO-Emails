@@ -26,6 +26,10 @@
 
 </style>
 
+<a href="nominate.php">Nominate</a>
+<iframe src="nominate.php"></iframe>
+
+
 <a href="new.php">New</a>
 <iframe src="new.php"></iframe>
 
