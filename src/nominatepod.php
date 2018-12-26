@@ -35,14 +35,19 @@
     <td class="nominate-header">
       <table><tr><td>
       <p>🏆</p>
-      <h1>Last call for&nbsp;Nominations</h1>
-      <p>Only two days remaining to nominate your favourite Canadian podcasts and podcasters in 26 categories across topic areas such as documentary, politics, arts, and culture.</p>
-      <p>Help us showcase the very best Canadian podcasters, editors, and producers; and showcase the diverse voices, ideas and values we have here in Canada by submiting today.</p>
+      <h1>Someone thinks you're&nbsp;great</h1>
 
-      <a href="https://awards.podcamptoronto.com/nominate/?utm_source=mailchimp&utm_medium=email&utm_campaign=lastcall" class="button">Nominate&nbsp;<span>&#x25ba;&#xFE0E;</span></a><br/>
+<p>Hey! We just wanted to let you know that someone has submitted your podcast to the pool of nominies for the 2nd annual Canadian Podcast Awards. In order to ensure that you make it through to the final round be sure to nominate yourself and have your Canadian podcasting friends nominate you as well.<p>
+
+<p>The top 5 podcasts with the most nominations in each category are moved to the final round to be voted on by the Canadian podcasting community.</p>
+
+
+      <p>Help us showcase the very best Canadian podcasters, editors, and producers; and showcase the diverse voices, ideas and values we have here in Canada by submitting today.</p>
+
+      <p>But hurry, nominations close soon!</p>
+
+      <a href="https://awards.podcamptoronto.com/nominate/?utm_source=mailchimp&utm_medium=email&utm_campaign=lastcall" class="button">Join Us&nbsp;<span>&#x25ba;&#xFE0E;</span></a><br/>
       <p><small>Nominations close <span>Dec</span>ember 29</small></p>
-
-         <p>P.S. Don't forget to let your podcasting friends know that they can nominate your podcast for free, and their own!</p>
       </td></tr></table>
     </td>
   </tr>
