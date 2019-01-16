@@ -228,7 +228,7 @@ table {
     padding: 0;
 
     @include breakpoint($xs-down) {
-      width: 100%!important;
+      width: 100% !important;
       display: block;
       margin-bottom: 12px;
     }
