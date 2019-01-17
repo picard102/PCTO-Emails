@@ -25,7 +25,7 @@
       &bull;
       <a href="mailto:info@podcamptoronto.com">Contact Us</a>
       <p>&copy; PodCamp&nbsp;Toronto, <span class="apple-link">3&zwnj;-&zwnj;3&zwnj;92 <span>Wilson Ave</span>, Toronto Ont, CAN <span>M3H</span> 1S9</span></p>
-      <p>This message was sent to <span class="apple-link"><a href="*|EMAIL|*">*|EMAIL|*</a></span> and intended for <span class="apple-link">*|fname|*</span>. You are reciving this becuase you are a past attendee of PodCamp&nbsp;Toronto.</p>
+      <p>This message was sent to <span class="apple-link"><a href="*|EMAIL|*">*|EMAIL|*</a></span> and intended for <span class="apple-link">*|fname|*</span>. You are receiving this because you are a past attendee of PodCamp&nbsp;Toronto.</p>
       <p><a href="*|UNSUB|*">Remove me from this list</a>
       <br><a href="*|UPDATE_PROFILE|*">Update subscription preferences</a></p>
       *|REWARDS|*
