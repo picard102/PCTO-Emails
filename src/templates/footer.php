@@ -15,9 +15,9 @@
 
 <table class="footer">
     <tr><td class="social-footer">
-    <a href="https://www.instagram.com/podcamptoronto/" ><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-instagram.png"></a>
-    <a href="https://www.facebook.com/PodCampTO" ><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-facebook.png"></a>
-    <a href="https://twitter.com/podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-twitter.png"></a>
+    <a href="https://www.instagram.com/podcamptoronto/" class="insta-footer"><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-instagram.png"></a>
+    <a href="https://www.facebook.com/PodCampTO" class="fb-footer" ><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-facebook.png"></a>
+    <a href="https://twitter.com/podcamptoronto" class="twitter-footer"><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-twitter.png"></a>
   </td></tr>
   <tr>
     <td>

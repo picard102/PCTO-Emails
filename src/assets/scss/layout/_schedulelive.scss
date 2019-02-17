@@ -1,0 +1,64 @@
+
+.main-header {
+  //@include test;
+  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-back-bg.png');
+  background-color: $darker-grey;
+  background-position: 70% top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: $white;
+
+  h1,
+  p {
+    color: $white;
+  }
+
+  p a {
+    @include linkcolor($blue, darken);
+  }
+
+
+  table {
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto 48px;
+  }
+
+  img {
+    @include size(100px);
+  }
+
+
+
+
+  .button:nth-of-type(2) {
+    background: $dark-grey;
+    padding: .5em 1em;
+    display: inline-block;
+    border-radius: 5px;
+    color: $white;
+    font-family: sans-serif;
+    text-decoration: none;
+
+    &.inline {
+      font-size: .7em;
+      padding: .05em .5em;
+      border-radius: 3px;
+    }
+
+    &:hover {
+      background: shade($white, 20%);
+    }
+
+    span {
+      margin-left: .5rem;
+      font-size: .7rem;
+    }
+  }
+
+}

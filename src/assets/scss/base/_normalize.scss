@@ -70,8 +70,8 @@ abbr[title] {
 b,
 strong {
   font-weight: normal;
-  border-bottom: 1px solid tint($red, 75%);
-  background: rgba($white, .3);
+  border-bottom: 1px solid tint($red, 5%);
+  //background: rgba($white, .3);
 }
 
 dfn {

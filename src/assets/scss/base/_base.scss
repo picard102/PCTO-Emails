@@ -108,13 +108,60 @@ table {
 }
 
 
+
+.white-footer {
+  background-color: $white;
+  color: $dark-grey;
+  background-position: left top;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+  p,
+  i,
+  .apple-link a,
+  a {
+    color: $dark-grey;
+    font-size: 12px;
+
+    @include breakpoint($xs-down) {
+      font-size: 11px !important;
+    }
+  }
+
+  table {
+    width: 100%;
+    max-width: 600px;
+    margin: 24px auto;
+  }
+
+}
+
 .social-footer {
   a {
     margin-right: 1em;
+    background-color: $black;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  .insta-footer {
+    background-color: $instagram;
+  }
+
+  .twitter-footer {
+    background-color: $twitter;
+  }
+
+  .fb-footer {
+    background-color: $facebook;
   }
 
   img {
     @include size(32px);
+    display: block;
   }
 }
 
@@ -122,8 +169,8 @@ table {
 
 .logos-sponsor {
   //@include test;
-  width: 100%;
-  height: 100%;
+  // width: 100%;
+  // height: 100%;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -131,6 +178,7 @@ table {
   table {
     width: 100%;
     max-width: 600px;
+    text-align: center;
   }
 
   a {
@@ -141,7 +189,7 @@ table {
 
   img {
     //@include test;
-    @include size(90px);
+    @include size(78px);
     display: block;
   }
 }

@@ -30,7 +30,8 @@ module.exports = function(grunt) {
         files: {'<%= pkg.path.buildpath %><%= pkg.name %>/style.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/style.scss',
         '<%= pkg.path.buildpath %><%= pkg.name %>/new.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/new.scss',
          '<%= pkg.path.buildpath %><%= pkg.name %>/ticket.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/ticket.scss',
-         '<%= pkg.path.buildpath %><%= pkg.name %>/nominate.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/nominate.scss' }
+         '<%= pkg.path.buildpath %><%= pkg.name %>/nominate.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/nominate.scss',
+          '<%= pkg.path.buildpath %><%= pkg.name %>/schedulelive.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/schedulelive.scss' }
       }
     },
 
