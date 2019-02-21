@@ -142,7 +142,6 @@ table {
 .social-footer {
   a {
     margin-right: 1em;
-    background-color: $black;
     display: inline-block;
     border-radius: 5px;
   }
@@ -189,7 +188,7 @@ table {
 
   img {
     //@include test;
-    @include size(78px);
+    @include size(108px);
     display: block;
   }
 }

@@ -372,31 +372,45 @@
 	"buffers":
 	[
 		{
-			"file": "src/schedulelive.php",
+			"file": "src/awardcer.php",
 			"settings":
 			{
-				"buffer_size": 2686,
+				"buffer_size": 5312,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "\n a[x-apple-data-detectors],\n.ii a[href],\na:-webkit-any-link {\n  color: inherit !important;\n  text-decoration: none !important;\n  font-size: inherit !important;\n  font-family: inherit !important;\n  font-weight: inherit !important;\n  line-height: inherit !important;\n}\n\n\n\n=IF(Merchandise!$A2=\"Unisex T-Shirt (Large)\", \"Large\", \nIF(Merchandise!$A2=\"Unisex T-Shirt (Medium)\", \"Medium\", \nIF(Merchandise!$A2=\"Unisex T-Shirt (Small)\", \"Small\", \nIF(Merchandise!$A2=\"Unisex T-Shirt (XL)\", \"XL\", \nIF(Merchandise!$A2=\"Unisex T-Shirt (XXL)\", \"XXL\", \nIF(Merchandise!$A2=\"Fitted T-Shirt (Large)\", \"Small\", \nIF(Merchandise!$A2=\"Fitted T-Shirt (Medium)\", \"Small\", \nIF(Merchandise!$A2=\"Fitted T-Shirt (Small)\", \"Small\", \nIF(Merchandise!$A2=\"Fitted T-Shirt (XL)\", \"Medium\", \nIF(Merchandise!$A2=\"Fitted T-Shirt (XXL)\", \"Large\", \"\") \n) \n) \n) \n) \n) \n) \n) \n)",
 			"file": "src/scatch",
-			"file_size": 268,
-			"file_write_time": 131948502600000000,
 			"settings":
 			{
-				"buffer_size": 837,
+				"buffer_size": 268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/sponsors.php",
+			"settings":
+			{
+				"buffer_size": 1260,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/assets/scss/layout/_schedulelive.scss",
+			"file": "src/assets/scss/base/_base.scss",
 			"settings":
 			{
-				"buffer_size": 1009,
+				"buffer_size": 3977,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/scss/layout/_nominate.scss",
+			"settings":
+			{
+				"buffer_size": 2852,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -474,22 +488,29 @@
 		"/Applications/MAMP/htdocs/PCTO-Emails/src",
 		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets",
 		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss",
+		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss/base",
 		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss/layout",
-		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss/utils"
+		"/Applications/MAMP/htdocs/PCTO-Emails/src/templates",
+		"/Applications/MAMP/htdocs/PCTO-Emails"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/PCTO-Emails/src/index.php",
+		"/Applications/MAMP/htdocs/PCTO-Emails/src/welcome.php",
+		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss/layout/_welcome.scss",
+		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss/utils/_responsive.scss",
+		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss/welcome.scss",
+		"/Applications/MAMP/htdocs/PCTO-Emails/Gruntfile.js",
+		"/Applications/MAMP/htdocs/PCTO-Emails/src/schedulelive.php",
 		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss/layout/_schedulelive.scss",
+		"/Applications/MAMP/htdocs/PCTO-Emails/src/scatch",
 		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss/base/_normalize.scss",
 		"/Applications/MAMP/htdocs/PCTO-Emails/src/templates/footer.php",
 		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss/base/_base.scss",
 		"/Applications/MAMP/htdocs/PCTO-Emails/src/templates/sponsors.php",
-		"/Applications/MAMP/htdocs/PCTO-Emails/src/schedulelive.php",
 		"/Applications/MAMP/htdocs/PCTO-Emails/dist/PCTO-EMAILS/schedulelive.css",
 		"/Applications/MAMP/htdocs/PCTO-Emails/dist/PCTO-EMAILS/schedulelive.css.map",
 		"/Applications/MAMP/htdocs/PCTO-Emails/src/assets/scss/schedulelive.scss",
-		"/Applications/MAMP/htdocs/PCTO-Emails/Gruntfile.js",
-		"/Applications/MAMP/htdocs/PCTO-Emails/src/index.php",
 		"/Applications/MAMP/htdocs/Email-Templates/src/thanks.php",
 		"/Applications/MAMP/htdocs/Email-Templates/src/templates/sponsors.php",
 		"/Applications/MAMP/htdocs/Email-Templates/src/assets/scss/base/_base.scss",
@@ -601,12 +622,7 @@
 		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/utils/_variables.scss",
 		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/scss/components/_session_grid.scss",
 		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/layout/_footer.scss",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/footer.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/base/_base.scss",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/assets/scss/components/_filters.scss",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO-2017/style.css",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/templates/proposal_list.php",
-		"/Applications/MAMP/htdocs/PodCamp-Toronto/src/includes/frontend/_post_class.pgp"
+		"/Applications/MAMP/htdocs/PodCamp-Toronto/wp-content/themes/PCTO_2016/footer.php"
 	],
 	"find":
 	{
@@ -630,6 +646,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"ooter",
+			"sponso",
+			"18",
+			" style=\"box-sizing: border-box;",
+			"style=\"box-sizing: border-box;\"",
 			"strong",
 			"campaign=tickets",
 			"css",
@@ -752,12 +773,7 @@
 			"steplimit",
 			"NUM_STEPS",
 			"hide",
-			"Hide",
-			"PID",
-			";\n",
-			"images/EN",
-			"images/FR",
-			"images/EN"
+			"Hide"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -775,47 +791,47 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/schedulelive.php",
+					"file": "src/awardcer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2686,
+						"buffer_size": 5312,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2129,
-								2129
+								2597,
+								2597
 							]
 						],
 						"settings":
 						{
-							"SL.567.region_keys":
+							"SL.62.region_keys":
 							[
-								"SL.phpcs.Highlights.|09b5ebcbbdaac9ecf4021b8e7c82331e7e63db0fe6c7f90d739f184b36dd15f8|region.redish markup.error.sublime_linter|32",
-								"SL.phpcs.Highlights.|66ba3c54a1e2ead2eab80812cc0595352f35b8302fd6b801aabd2cb9c8f1f888|region.redish markup.error.sublime_linter|32",
+								"SL.phpcs.Highlights.|354b34c0edf00fdbefcb401a3e1bf88f7222df422a255b0338f89f04756cb4f5|region.redish markup.error.sublime_linter|32",
+								"SL.phpcs.Highlights.|087701164a446627b79320f4b19c28de8061c33764a42161c7a5a79316a2c40f|region.redish markup.error.sublime_linter|32",
 								"SL.phpcs.Highlights.|8d72de5c658c093cbe69f725d7dc8a0b14eecb0ec7f3e7b46debe048ffc7b124|region.redish markup.error.sublime_linter|32",
-								"SL.phpcs.Highlights.|90f53048c7491106ef8d5307ebe5fd1c393f9ae0d4142fe85a5e4a3af55e6b9c|region.redish markup.error.sublime_linter|32",
-								"SL.phpcs.Highlights.|6d1e3fbfbddf26d09a3e02422e6f47900bd2960ce2a9ac7b52ea002f87695110|region.redish markup.error.sublime_linter|32",
-								"SL.phpcs.Highlights.|212fcdf8524146a7eba4e68bf4779512518ac7c847df2b4c8cb556c71c085bcf|region.redish markup.error.sublime_linter|32",
-								"SL.phpcs.Highlights.|d1bfd156c01dde28317a3ea8a34377eb20bd49aef67a1c286d467762a73d98b8|region.redish markup.error.sublime_linter|32",
 								"sublime_linter.protected_regions",
-								"SL.phpcs.Highlights.|de9fcf756a4396b706fcd3c59b0b5ad470917e4a87938e7b6f32307ba0562be3|region.redish markup.error.sublime_linter|32",
-								"SL.phpcs.Gutter.|region.redish markup.error.sublime_linter|dot",
 								"SL.phpcs.Highlights.|3dfcc3276869976935729768fdfb485c01c1810532191a1746fe2f8a30bb884b|region.redish markup.error.sublime_linter|32",
-								"SL.phpcs.Highlights.|354b34c0edf00fdbefcb401a3e1bf88f7222df422a255b0338f89f04756cb4f5|region.redish markup.error.sublime_linter|32"
+								"SL.phpcs.Highlights.|7bd5ae4212a9d73e17006efd0ce8cdb5384281990e72dae6509ae64b1a27e108|region.redish markup.error.sublime_linter|32",
+								"SL.phpcs.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.phpcs.Highlights.|66ba3c54a1e2ead2eab80812cc0595352f35b8302fd6b801aabd2cb9c8f1f888|region.redish markup.error.sublime_linter|32",
+								"SL.phpcs.Highlights.|09b5ebcbbdaac9ecf4021b8e7c82331e7e63db0fe6c7f90d739f184b36dd15f8|region.redish markup.error.sublime_linter|32",
+								"SL.phpcs.Highlights.|d1bfd156c01dde28317a3ea8a34377eb20bd49aef67a1c286d467762a73d98b8|region.redish markup.error.sublime_linter|32",
+								"SL.phpcs.Highlights.|90f53048c7491106ef8d5307ebe5fd1c393f9ae0d4142fe85a5e4a3af55e6b9c|region.redish markup.error.sublime_linter|32",
+								"SL.phpcs.Highlights.|6d1e3fbfbddf26d09a3e02422e6f47900bd2960ce2a9ac7b52ea002f87695110|region.redish markup.error.sublime_linter|32"
 							],
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1434.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -824,49 +840,77 @@
 				{
 					"buffer": 1,
 					"file": "src/scatch",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 837,
+						"buffer_size": 268,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								837,
-								271
+								268,
+								0
 							]
 						],
 						"settings":
 						{
-							"SL.586.region_keys":
-							[
-							],
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 213.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/templates/sponsors.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1092,
+								1092
+							]
+						],
+						"settings":
+						{
+							"SL.68.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/assets/scss/layout/_schedulelive.scss",
+					"buffer": 3,
+					"file": "src/assets/scss/base/_base.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1009,
+						"buffer_size": 3977,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								368,
-								368
+								2321,
+								2321
 							]
 						],
 						"settings":
@@ -874,10 +918,41 @@
 							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 861.0,
+						"translation.y": 2943.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/assets/scss/layout/_nominate.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								343
+							]
+						],
+						"settings":
+						{
+							"SL.64.region_keys":
+							[
+							],
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

@@ -24,7 +24,14 @@
   }
 
 
+
 </style>
+
+<a href="awardcer.php">Ceremony</a>
+<iframe src="awardcer.php"></iframe>
+
+<a href="nominatepod.php">Nominate</a>
+<iframe src="nominatepod.php"></iframe>
 
 <a href="nominate.php">Nominate</a>
 <iframe src="nominate.php"></iframe>

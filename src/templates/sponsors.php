@@ -9,6 +9,7 @@
     <a href="https://rightsleeve.com?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/rs.png"></a>
     <a href="http://leschinskidesign.com?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/leschinski.png"></a>
     <a href="http://sapnatoronto.com/?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/sapa.png"></a>
+    <a href="http://impactxd.com/?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/impact.png"></a>
   </td>
 </tr>
 </table>
