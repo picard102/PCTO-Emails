@@ -135,7 +135,7 @@
             <a href="https://hindenburg.com/podcamp?utm_source=podcamptoronto" class="button inline">Sign up&nbsp;<span>&#x25ba;&#xFE0E;</span></a>
 </p>
 
-<p>Attend Hindenburg's <a href="https://2019.podcamptoronto.com/sessions/painting-pictures-with-sound-learn-the-basics-of-audio-editing/">workshop</a> to receive an extended 6-month Journalist PRO licence.</p>
+<p>Attend Hindenburg's <a href="https://2019.podcamptoronto.com/sessions/painting-pictures-with-sound-learn-the-basics-of-audio-editing/">workshop</a> to extend your Journalist PRO trial for up to 6-months.</p>
 
 <p>Enter the draw to win either a 2-year HJP licence or limited edition messenger bag at Hindenburg’s booth.</p>
           </td>
@@ -191,9 +191,9 @@
     <td class="pull-sponsor">
       <table>
         <tr>
-          <td class="sponsor-image"> <a href="http://ow.ly/LuHH50k9ssZ"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/impact.png"></a></td>
+          <td class="sponsor-image"> <a href="http://impactxd.com/?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/impact.png"></a></td>
           <td>
-            <p>ImpactXD will be offering headshots for $25</p>
+            <p>ImpactXD will be offering Free social media headshots. High resolution, non watermarked for use in print and web collateral $25</p>
           </td>
         </tr>
       </table>

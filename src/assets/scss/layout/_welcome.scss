@@ -17,6 +17,15 @@
     @include linkcolor($blue, darken);
   }
 
+  p,
+  h1,
+  .adr,
+  h4,
+  h5,
+  td {
+    color: $white;
+  }
+
   small {
     color: $white;
   }
@@ -41,7 +50,6 @@
     &.locations {
       td {
         font-size: 1.1em;
-        width: 30%;
         padding: 0 12px 0 0;
 
         @include break($max: 500px) {
