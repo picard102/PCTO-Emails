@@ -178,6 +178,7 @@ table {
     width: 100%;
     max-width: 600px;
     text-align: center;
+    margin: 24px auto;
   }
 
   a {
@@ -188,7 +189,7 @@ table {
 
   img {
     //@include test;
-    @include size(108px);
+    @include size(90px);
     display: block;
   }
 }

@@ -26,6 +26,8 @@
 
 
 </style>
+<a href="campfire.php">campfire</a>
+<iframe src="campfire.php"></iframe>
 
 <a href="awardcer.php">Ceremony</a>
 <iframe src="awardcer.php"></iframe>

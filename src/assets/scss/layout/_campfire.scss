@@ -1,0 +1,68 @@
+$campfire: #320d5d;
+$button: #b301c0;
+
+body,
+html {
+  background-color: $campfire;
+}
+
+::selection {
+  color: $white;
+  background-color: $button;
+}
+
+.main-header {
+  //@include test;
+  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/campfire-bg.jpg');
+  background-color: $campfire;
+  background-position: center top;
+  background-size: contain;
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: $white;
+
+
+  table {
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto 48px;
+  }
+
+  img {
+    @include size(100px);
+  }
+
+
+  .button {
+    background-color: $button;
+
+    &:hover {
+      background-color: shade($button, 10%);
+    }
+  }
+}
+
+
+.main-content {
+  background-color: $campfire;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  table {
+    background-color: $black;
+    color: $white;
+
+    td {
+      padding: 24px;
+    }
+  }
+}
+
+
+
