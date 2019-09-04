@@ -189,8 +189,9 @@ table {
 
   img {
     //@include test;
-    @include size(90px);
+    @include size(80px);
     display: block;
+
   }
 }
 

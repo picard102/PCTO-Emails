@@ -11,6 +11,18 @@ html {
   background-color: $button;
 }
 
+.logos-sponsor {
+  background-color: $campfire;
+  color: $white;
+
+
+  p,
+  h3 {
+    color: $white;
+  }
+
+}
+
 .main-header {
   //@include test;
   background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/campfire-bg.jpg');
@@ -24,6 +36,11 @@ html {
   margin: 0;
   padding: 0;
   color: $white;
+
+  p,
+  h1 {
+    color: $white;
+  }
 
 
   table {
@@ -41,22 +58,41 @@ html {
     background-color: $button;
 
     &:hover {
-      background-color: shade($button, 10%);
+      background-color: shade($button, 20%);
     }
   }
 }
 
 
 .main-content {
-  background-color: $campfire;
+  background-color: $black;
+  padding: 12px;
+
+  a {
+    color: tint($button, 60%);
+
+    &:hover {
+      color: tint($button, 40%);
+    }
+  }
 
   h2 {
     margin-top: 0;
+
+    strong {
+      font-weight: $semi;
+      border-bottom: 0;
+      background-color: $button;
+      padding: 0 6px;
+    }
   }
 
   table {
     background-color: $black;
     color: $white;
+    border: 3px solid $button;
+
+
 
     td {
       padding: 24px;
@@ -64,5 +100,22 @@ html {
   }
 }
 
+
+
+.tree-content {
+  background-color: $campfire;
+  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/campfire-t-bg.png');
+  background-color: $campfire;
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: repeat-x;
+
+  height: 200px;
+
+
+  @include breakpoint($xs-down) {
+    height: 100px;
+  }
+}
 
 
