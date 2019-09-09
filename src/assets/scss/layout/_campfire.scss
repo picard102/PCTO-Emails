@@ -46,7 +46,7 @@ html {
   table {
     width: 100%;
     max-width: 600px;
-    margin: 100px auto 48px;
+    margin: 0 auto 48px;
   }
 
   img {
@@ -117,5 +117,49 @@ html {
     height: 100px;
   }
 }
+
+
+.camp-hero {
+  //@include test;
+  text-align: center;
+
+  img {
+    margin-bottom: -100px;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  .num {
+    //@include test;
+    font-size: 300px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.2em;
+  }
+
+
+  .days {
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 1em;
+  }
+
+
+  .left {
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 1em;
+  }
+}
+
+
+
+
 
 
