@@ -32,7 +32,7 @@ module.exports = function(grunt) {
          '<%= pkg.path.buildpath %><%= pkg.name %>/ticket.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/ticket.scss',
          '<%= pkg.path.buildpath %><%= pkg.name %>/nominate.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/nominate.scss',
                    '<%= pkg.path.buildpath %><%= pkg.name %>/campfire.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/campfire.scss',
-
+            '<%= pkg.path.buildpath %><%= pkg.name %>/awards.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/awards.scss',
           '<%= pkg.path.buildpath %><%= pkg.name %>/schedulelive.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/schedulelive.scss',
           '<%= pkg.path.buildpath %><%= pkg.name %>/welcome.css': '<%= pkg.path.srcpath %><%= pkg.path.scss %>/welcome.scss' }
       }
