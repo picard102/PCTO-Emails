@@ -1,20 +1,24 @@
+$pink: #d10078;
+$cream: #f0e9cf;
+$blue: #3ecbd9;
 
 .main-header {
   //@include test;
-  background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-reg-bg.png');
-  background-color: $red;
-  background-position: center top;
+  //background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-reg-bg.png');
+  background-color: $cream;
+  //background-position: center bottom;
+  //background-repeat: repeat-x;
   width: 100%;
   height: 100%;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  color: $white;
+  color: $pink;
 
 
   p a,
   a {
-    @include linkcolor($blue, darken);
+    @include linkcolor($pink, darken);
   }
 
   p,
@@ -23,11 +27,15 @@
   h4,
   h5,
   td {
-    color: $white;
+    color: $pink;
+  }
+
+  h1 {
+    font-size: 40px;
   }
 
   small {
-    color: $white;
+    color: $pink;
   }
 
   table {
@@ -79,7 +87,7 @@
       a {
         font-size: .8em;
         display: block;
-        color: $lighter-blue;
+        color: $pink;
         margin-top: 6px;
       }
     }
@@ -104,6 +112,13 @@
 
   a {
     color: $red;
+  }
+
+
+  strong {
+    background-color: $pink;
+    color: $white;
+    padding: .2em;
   }
 }
 
@@ -166,3 +181,17 @@
 
 
 }
+
+
+.notice {
+  background-color: $blue;
+  color: $pink;
+
+  a {
+    @include linkcolor($pink, darken);
+  }
+
+}
+
+
+

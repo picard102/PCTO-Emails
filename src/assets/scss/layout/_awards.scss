@@ -1,139 +1,179 @@
 
 
-.awards-content {
+.aw-body {
   //@include test;
-  //background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-award-bg-laurels.png');
-  background-color: #d5f1f4; // scss-lint:disable ColorVariable
-  background-position: center top;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
+  font-size: 16px;
+  background-color: $offblack; // scss-lint:disable ColorVariable
+  color: $aw-white;
+  //font-family: 'Playfair Display', serif;
+  font-family: Helvetica, Arial, sans-serif;
   padding: 0;
-  color: #e3402e; // scss-lint:disable ColorVariable
-
-  table {
-    width: 100%;
-    max-width: 600px;
-    margin: 48px auto;
-  }
-
-  .logo-top {
-    margin-bottom: 52px;
-    margin-top: 0;
-    display: block;
-  }
-
-  h1 {
-    font-size: 32px;
-  }
-
-  p,
-  i,
-  a {
-    font-size: 16px;
-  }
-
+  margin: 0;
 }
 
+.table-base {
+  //@include test;
+  max-width: 600px;
 
+  h1 {
+    font-size: 24px;
+  }
+
+  .title {
+    line-height: 27px;
+    margin-bottom: 42px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.awards-content {
+  padding: 27px;
+}
 
 
 
 .awards-footer {
-  background-color: $white;
-  color: $black;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-
-  p,
-  i,
-  .apple-link a,
-  a {
-    color: $black;
-    font-size: 12px;
-
-    @include breakpoint($xs-down) {
-      font-size: 11px !important;
-    }
-  }
-
-  table {
-    width: 100%;
-    max-width: 600px;
-    margin: 24px auto;
-  }
-
+  border-top: 1px solid $aw-white;
 }
 
+// .awards-content {
+//   //@include test;
+//   //background-image: url('http://podcamptoronto.com/external/img/raster/2019/emails/email-award-bg-laurels.png');
+//   background-color: #d5f1f4; // scss-lint:disable ColorVariable
+//   background-position: center top;
+//   background-repeat: no-repeat;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+//   margin: 0;
+//   padding: 0;
+//   color: #e3402e; // scss-lint:disable ColorVariable
 
-.social-footer {
-  a {
-    margin-right: 1em;
-  }
+//   table {
+//     width: 100%;
+//     max-width: 600px;
+//     margin: 48px auto;
+//   }
 
-  img {
-    @include size(32px);
-  }
-}
+//   .logo-top {
+//     margin-bottom: 52px;
+//     margin-top: 0;
+//     display: block;
+//   }
 
+//   h1 {
+//     font-size: 32px;
+//   }
 
+//   p,
+//   i,
+//   a {
+//     font-size: 16px;
+//   }
 
-
-.hind-sponsor {
-  //@include test;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
-  padding: 12px;
-
-
-  table {
-    background-image: url('http://podcamptoronto.com/external/img/raster/email-sponsors/hind-bg.png');
-    background-color: shade($lighter-grey, 90%);
-    background-position: center center;
-    background-size: cover;
-    //border: 1px solid $lighter-grey;
-    width: 100%;
-    max-width: 600px;
-    margin: 12px auto;
-    text-align: center;
-    color: $white;
-
-    td {
-      padding: 18px;
-      vertical-align: top;
-    }
-  }
+// }
 
 
-  p {
-    font-family: 'Playfair Display', serif;
-    text-align: left;
-    letter-spacing: .9px;
-    font-size: 1.1em;
-    line-height: 1.5em;
-    padding-top: 1em;
-    border-top: 1px solid $dark-grey;
-  }
-
-  a {
-    margin: 0;
-    display: inline-block;
-    color: $white;
-  }
-
-  img {
-    //@include test;
-    @include size(90px);
-    display: block;
-    margin: 0 auto;
-  }
 
 
-}
+
+// .awards-footer {
+//   background-color: $white;
+//   color: $black;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+//   margin: 0;
+//   padding: 0;
+
+//   p,
+//   i,
+//   .apple-link a,
+//   a {
+//     color: $black;
+//     font-size: 12px;
+
+//     @include breakpoint($xs-down) {
+//       font-size: 11px !important;
+//     }
+//   }
+
+//   table {
+//     width: 100%;
+//     max-width: 600px;
+//     margin: 24px auto;
+//   }
+
+// }
+
+
+// .social-footer {
+//   a {
+//     margin-right: 1em;
+//   }
+
+//   img {
+//     @include size(32px);
+//   }
+// }
+
+
+
+
+// .hind-sponsor {
+//   //@include test;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+//   margin: 0;
+//   padding: 12px;
+
+
+//   table {
+//     background-image: url('http://podcamptoronto.com/external/img/raster/email-sponsors/hind-bg.png');
+//     background-color: shade($lighter-grey, 90%);
+//     background-position: center center;
+//     background-size: cover;
+//     //border: 1px solid $lighter-grey;
+//     width: 100%;
+//     max-width: 600px;
+//     margin: 12px auto;
+//     text-align: center;
+//     color: $white;
+
+//     td {
+//       padding: 18px;
+//       vertical-align: top;
+//     }
+//   }
+
+
+//   p {
+//     font-family: 'Playfair Display', serif;
+//     text-align: left;
+//     letter-spacing: .9px;
+//     font-size: 1.1em;
+//     line-height: 1.5em;
+//     padding-top: 1em;
+//     border-top: 1px solid $dark-grey;
+//   }
+
+//   a {
+//     margin: 0;
+//     display: inline-block;
+//     color: $white;
+//   }
+
+//   img {
+//     //@include test;
+//     @include size(90px);
+//     display: block;
+//     margin: 0 auto;
+//   }
+
+
+// }

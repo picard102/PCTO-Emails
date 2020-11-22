@@ -15,9 +15,9 @@
 
 <table class="awards-footer">
     <tr><td class="social-footer">
-    <a href="https://www.instagram.com/CanPodAwards/" ><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-instagram-d.png"></a>
-    <a href="https://www.facebook.com/CanPodAwards" ><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-facebook-d.png"></a>
-    <a href="https://twitter.com/CanPodAwards"><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-twitter-d.png"></a>
+    <a href="https://www.instagram.com/CanPodAwards/" ><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-instagram-d.png" width="24"  height="24"></a>
+    <a href="https://www.facebook.com/CanPodAwards" ><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-facebook-d.png" width="24"  height="24"></a>
+    <a href="https://twitter.com/CanPodAwards"><img src="http://podcamptoronto.com/external/img/raster/2019/emails/icon-twitter-d.png" width="24" height="24"></a>
   </td></tr>
   <tr>
     <td>

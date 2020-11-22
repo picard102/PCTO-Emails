@@ -110,3 +110,29 @@ $semi: 600;
 $heavy: 700;
 $extra: 800;
 $em-base: 16px;
+
+
+
+$cinnabar: rgb(227, 64, 46);
+$cinnabar-light: lighten($cinnabar, 20%);
+$cinnabar-lighter: lighten($cinnabar, 40%);
+$cinnabar-dark: darken($cinnabar, 20%);
+$cinnabar-darker: darken($cinnabar, 40%);
+
+$iceberg: rgb(213, 241, 244);
+$iceberg-light: tint($iceberg, 20%);
+$iceberg-lighter: tint($iceberg, 35%);
+$iceberg-dark: darken($iceberg, 10%);
+$iceberg-darker: darken($iceberg, 20%);
+
+$breton: rgb(119, 120, 124);
+$breton-light: lighten($breton, 20%);
+$breton-lighter: lighten($breton, 40%);
+$breton-dark: darken($breton, 15%);
+$breton-darker: darken($breton, 25%);
+
+$aw-white: rgb(244, 248, 250);
+
+$offblack: #2f353a;
+$aw-black: darken($breton, 30%);
+

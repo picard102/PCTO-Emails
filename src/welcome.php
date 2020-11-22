@@ -35,19 +35,39 @@
       <p>🎉</p>
       <h1>Congratulations *|FNAME|*! You're in for a great&nbsp;weekend.</h1>
 
-      <p>Are you ready for a massive weekend of sharing knowledge, meeting great people and general PodCamp awesomeness?</br> Us, too! We have a lot planned and can't wait to see you all this weekend. Just a couple of things to go over before all the fun begins:</p>
+      <p>Are you ready for a massive weekend of sharing knowledge, meeting great people and general PodCamp awesomeness?</br> Us, too! We have a lot planned and can't wait to see you all this weekend.</p>
+
+      <p>The fun kicks off tonight at the <a href="https://goo.gl/maps/Jo69edUr3eP2">Imperial Public Library</a> with a welcome event hosted by the PodCamp community. It's a great way to get familiar with the faces you'll be seeing for the next two days.</p>
+
+      <p>But first, here's some info to help you make the most of the weekend!</p>
 
       <h4>Wi-Fi Instructions</h4>
       <table class="wifi">
       <tr><td class="left">Network:</td><td>RU-Secure</td></tr>
-      <tr><td class="left">Username:</td><td>podcamp2019</td></tr>
-      <tr><td class="left">Password:</td><td>Podca$t1n9</td></tr>
+      <tr><td class="left">Username:</td><td>podcamp2020</td></tr>
+      <tr><td class="left">Password:</td><td>Podc@st1n9</td></tr>
       </table>
 
 
 <h4>Locations</h4>
 <table class="locations">
     <tr>
+
+
+    <td>
+        <small>Friday Welcome Mixer</small>
+        <h5>Imperial Pub</h5>
+        <span class="adr">
+          <span class="street-address">54 Dundas St E</span><br>
+          <span class="locality">Toronto</span>,
+          <abbr class="region" title="Ontario">ON</abbr>
+          <span class="postal-code">M5B 1C7</span><br>
+          <span class="country-name">Canada</span>
+        </span>
+        <a href="https://goo.gl/maps/Jo69edUr3eP2">Google Maps</a>
+      </td>
+
+
     <td>
         <small>Un-Conference</small>
         <h5>Ryerson University</h5>
@@ -75,19 +95,6 @@
         <a href="https://goo.gl/maps/SoqHXDWYN2R2">Google Maps</a>
     </td>
 
-
-    <td>
-        <small>Friday Welcome Mixer</small>
-        <h5>Imperial Pub</h5>
-        <span class="adr">
-          <span class="street-address">54 Dundas St E</span><br>
-          <span class="locality">Toronto</span>,
-          <abbr class="region" title="Ontario">ON</abbr>
-          <span class="postal-code">M5B 1C7</span><br>
-          <span class="country-name">Canada</span>
-        </span>
-        <a href="https://goo.gl/maps/Jo69edUr3eP2">Google Maps</a>
-      </td>
     </tr>
   </table>
 
@@ -102,7 +109,6 @@
         <tr>
           <td>
             <a href="http://www.ryersonrta.com?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/ryerson.png"></a>
-            <a href="http://girthradio.com?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/girth.png"></a>
             <a href="https://hindenburg.com?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/hindenburg.png"></a>
             <a href="https://rightsleeve.com?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/rs.png"></a>
           </td>
@@ -114,11 +120,11 @@
 
   <tr>
     <td class="main-content">
-      <table><tr><td>
-      <h3>TTC Notice</h3>
+      <table class="notice"><tr><td>
+      <h3>TTC Service Disruption</h3>
 
-      <p>There will be no subway service on Line 1 between St Clair West and Union stations on Saturday, February 23 and Sunday, February 24, 2019 due to installation of the new Automatic Train Control (ATC) signalling system.
-      <a href="http://www.ttc.ca/Service_Advisories/Subway_closures/02_23-24_L1_StClairWest_to_Union.jsp" >Find more details and alternate routes&nbsp;here.</a></p>
+      <p>Expect delays if you are coming via TTC this weekend. There will be multiple subway service disruptions on Line 1 throughout.
+      <a href="http://www.ttc.ca/Service_Advisories/Subway_closures/index.jsp" >Find more details and alternate routes&nbsp;here.</a></p>
       </td></tr></table>
     </td>
   </tr>
@@ -131,13 +137,13 @@
           <td>
 <img src="http://podcamptoronto.com/external/img/raster/email-sponsors/hindenburg.png">
 
-            <p>Use the link to receive Hindenburg’s Podcamp 2019 60-day Journalist PRO trial and special discount.
-            <a href="https://hindenburg.com/podcamp?utm_source=podcamptoronto" class="button inline">Sign up&nbsp;<span>&#x25ba;&#xFE0E;</span></a>
-</p>
 
-<p>Attend Hindenburg's <a href="https://2019.podcamptoronto.com/sessions/painting-pictures-with-sound-learn-the-basics-of-audio-editing/">workshop</a> to extend your Journalist PRO trial for up to 6-months.</p>
 
-<p>Enter the draw to win either a 2-year HJP licence or limited edition messenger bag at Hindenburg’s booth.</p>
+     <p>Melissa from Hindenburg Systems will be at Podcamp Toronto again this year and will run a workshop on podcast recording and editing, as well as demo Hindenburg and offer podcast production advice at our booth.</p>
+
+     <p>All Podcampers will be offered the opportunity to download a 60-day Journalist PRO trial and a discount code.</p>
+
+     <p>There will also be an opportunity to win a 1-year Journalist PRO license if you enter our raffle.</p>
           </td>
         </tr>
       </table>
@@ -163,7 +169,6 @@
             <a href="https://podnews.net?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/podnews.png"></a>
             <a href="http://leschinskidesign.com?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/leschinski.png"></a>
             <a href="http://sapnatoronto.com/?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/sapa.png"></a>
-            <a href="http://impactxd.com/?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/impact.png"></a>
           </td>
         </tr>
         </table>
@@ -176,29 +181,17 @@
       <table><tr><td>
       <h3>What To Bring</h3>
       <ul>
-        <li><p>Lots of attendees bring their laptops and tablets for taking notes and posting tweets during our sessions (#PCTO19). We're working with our venue hosts to get Wi-Fi set up for PodCamp attendees. That said, PodCamp is a rare opportunity for us to talk face to face, so let's do that too!</p></li>
+        <li><p>Lots of attendees bring their laptops and tablets for taking notes and posting tweets during our sessions (#PCTO20). We're working with our venue hosts to get Wi-Fi set up for PodCamp attendees. That said, PodCamp is a rare opportunity for us to talk face to face, so let's do that too!</p></li>
         <li><p>Need juice? We don't have a charging station available but there are plugs all around the venue, so do bring your chargers!</p></li>
         <li><p>Old school? Pens, pencils, and notebooks are all welcome here. No judgement!</p></li>
         <li><p>Other good accoutrements include water bottles, snacks, and some spending money. While you could bring a lunch and enjoy it on site (nothing wrong with that!), many of our attendees get together for informal lunch plans and venture out to the Ryerson environs.</p></li>
-        <li><p>Need more guidance? Information about our venues, local accommodations and travel/parking options are available on our <a href="http://2019.podcamptoronto.com/logistics/" color: #ba162d; background: transparent;">Logistics page</a>.</p></li>
+        <li><p>Need more guidance? Information about our venues, local accommodations and travel/parking options are available on our <a href="http://2020.podcamptoronto.com/logistics/" color: #ba162d; background: transparent;">Logistics page</a>.</p></li>
       </ul>
       </td></tr></table>
     </td>
   </tr>
 
 
-  <tr>
-    <td class="pull-sponsor">
-      <table>
-        <tr>
-          <td class="sponsor-image"> <a href="http://impactxd.com/?utm_source=podcamptoronto"><img src="http://podcamptoronto.com/external/img/raster/email-sponsors/impact.png"></a></td>
-          <td>
-            <p>ImpactXD will be offering Free social media headshots. High resolution, non watermarked for use in print and web collateral $25</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
 
 
   <tr>
@@ -211,7 +204,7 @@
   <li><p><strong font-weight: bold;">Since PCTO is an unconference, the standard conference rules do not apply.</strong> If you find yourself sitting in a session with a title and description that really spoke to you, but the actual content isn’t what you had hoped for, walk yourself out of the room and find one you will enjoy. Quietly, and respectfully, of course!</p></li>
   <li><p><strong font-weight: bold;">Sessions are 45 minutes long with a 15 minute break between each.</strong> Please pack up quickly at the end of each session to give the next presenter time to set up.</p></li>
   <li><p><strong font-weight: bold;">Please respect the PodCamp space.</strong> Ryerson University has been our home since the first PodCamp Toronto in 2007, and we would like to continue this tradition. Put your trash in the proper trash bins.</p></li>
-  <li><p><strong font-weight: bold;">Use the #PCTO19 hashtag.</strong> Be a friend and tell the PodCamp story for those who can’t attend by including the #PCTO19 hashtag in all of your tweets, pics, check-ins, blogs, etc!</p></li>
+  <li><p><strong font-weight: bold;">Use the #PCTO20 hashtag.</strong> Be a friend and tell the PodCamp story for those who can’t attend by including the #PCTO20 hashtag in all of your tweets, pics, check-ins, blogs, etc!</p></li>
 </ul>
       </td></tr></table>
     </td>
