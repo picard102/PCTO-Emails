@@ -350,7 +350,7 @@ module.exports = function(grunt) {
     watch: {
 
       options: {
-        livereload: 25710,
+        livereload: 45711,
       },
 
       grunt: {
