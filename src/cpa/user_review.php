@@ -133,14 +133,14 @@
       <td style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; color: #222;">
 
 <p>Hey {{{insert fname "default=Friend"}}}</p>
-<p>We have reviewed the details you supplied for your application, but were unable to approve your account at this time for the following reasons.</p>
+<p>We have reviewed the details you supplied for your application, but were unable to approve your account at this time for the following reasons:</p>
 
 <table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFFF; padding: 24px;  width: 100%; max-width: 640px;">
 
 
 {{#if reason.not-canadian}}
       <tr>
-        <td width="100px">
+        <td width="100px" valign="top">
             <img src="http://cdn.mcauto-images-production.sendgrid.net/4d8b1d2177da83e5/6b668015-3f5b-4576-9402-c13c8ff8a0c6/100x92.png">
         </td>
        <td width="30px"></td>
@@ -159,7 +159,7 @@
 
 {{#if reason.not-podcaster}}
       <tr>
-        <td width="100px">
+        <td width="100px" valign="top">
             <img src="http://cdn.mcauto-images-production.sendgrid.net/4d8b1d2177da83e5/61fa55c2-d113-4747-a181-9471dd84d8be/100x92.png">
         </td>
        <td width="30px"></td>
@@ -182,7 +182,7 @@
 
 {{#if reason.no-profile}}
       <tr>
-        <td width="100px">
+        <td width="100px" valign="top">
             <img src="http://cdn.mcauto-images-production.sendgrid.net/4d8b1d2177da83e5/2db8fbf8-2de8-4239-981c-a7a8d140e340/100x92.png">
         </td>
        <td width="30px"></td>
@@ -206,7 +206,7 @@
 
 {{#if reason.multi-account}}
       <tr>
-        <td width="100px">
+        <td width="100px" valign="top">
             <img src="http://cdn.mcauto-images-production.sendgrid.net/4d8b1d2177da83e5/f58448ca-f1f5-49e0-ac25-2327504f3f17/100x92.png">
         </td>
        <td width="30px"></td>
@@ -268,7 +268,8 @@
 
 
         {{#if nominations}}
-<p>Nominations are <a href="{{home_url}}/nominate?utm_source=sendgrid&utm_medium=email&utm_campaign={{campaign_id}}" style="color: #e3402e;">now open.</a> Help us showcase the very best Canadian podcasters, editors, and producers; and showcase the diverse voices, ideas and values we have here in Canada by submitting today.</p>Make sure you let your friends in the industry know as well. The top 10 podcasts with the most nominations across all categories will be eligible for the People's Choice award, open for voting by Canadian podcast audiences.</p>
+<p>Nominations are <a href="{{home_url}}/nominate?utm_source=sendgrid&utm_medium=email&utm_campaign={{campaign_id}}" style="color: #e3402e;">now open.</a> Help us showcase the very best Canadian podcasters, editors, and producers; and showcase the diverse voices, ideas and values we have here in Canada by submitting today.</p>
+<p>Be sure to let your friends in the industry know as well. The top 10 podcasts with the most nominations across all categories will be eligible for the People's Choice award, open for voting by Canadian podcast audiences.</p>
 {{/if}}
 
         {{#if voting}}
