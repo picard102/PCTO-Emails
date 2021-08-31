@@ -124,6 +124,34 @@
 
 
 
+
+
+
+        {{#if pwd_recovery}}
+
+
+   <table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFFF; padding: 24px;  width: 100%; max-width: 640px; min-width: 600px;">
+
+    <tr>
+      <td style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; color: #222;">
+
+<p>Hey {{{insert fname "default=Friend"}}}</p>
+<p>We received a request to reset the password for the account associated with {{email}}.</p>
+
+<p>You can reset your password by clicking the link below:</p>
+<a href="{{password_set}}" style="text-decoration: none; background:#ddd; color:#000; font-size: 13px; display: inline-block; padding: 12px 24px; border-radius: 3px; width: 100%; text-align: center">
+          <span style="display: block; font-weight: 500;">Reset Password</span></a>
+
+<p>If you did not request a new password, you can ignore this email. No changes have been made to your account.</p>
+<p>Thanks!</p>
+{{/if}}
+
+
+
+
+
+
+
         {{#if rejected_user}}
 
 
